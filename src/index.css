@@ -16,5 +16,8 @@ p{
 }
 h1{
     font-family: 'Sora', sans-serif;
-
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-weight: 700;
+     /* color: !important;  */
 }
