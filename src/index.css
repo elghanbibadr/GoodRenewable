@@ -10,10 +10,41 @@ html{
     font-size: 62.5%;
 }
 
+
+
+@layer components {
+    h1 {
+      @apply lg:text-[6.4rem] lg:leading-[7.2rem];
+    }
+
+    h2{
+        @apply font-[700] text-[3.2rem] leading-[4rem] lg:text-[5.6rem] lg:leading-[7.2rem]
+    }
+
+    h3{
+        @apply text-[2.4rem] font-bold leading-[3.2rem] lg:text-[4rem] lg:leading-[4rem]
+    }
+    h4{
+        @apply font-[700] text-[3.2rem] leading-[4rem]
+    }
+
+    h5{
+       @apply font-bold text-[2.4rem]
+    }
+
+    h1,h2,h3,h4,h5{
+        @apply text-black
+    }
+    p{
+        @apply text-[1.6rem] text-[300] leading-[2.6rem] text-paleBlack lg:text-[1.8rem]
+    }
+
+  }
+
 p{
     font-family: 'Poppins', sans-serif;
-
 }
+
 h1{
     font-family: 'Sora', sans-serif;
     font-size: 3.5rem;
