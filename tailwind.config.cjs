@@ -11,6 +11,7 @@ module.exports = {
      "green": "#5ada2e",
      "paleBlack": "#5A6364",
      "paleWhite": "#F4FFE7",
+     "white": "#FFF"
     },
     screens: {
       'sm': '360px',
