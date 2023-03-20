@@ -43,7 +43,7 @@ html{
         @apply text-[1.8rem]
     }
     .navbar__list li{
-        @apply leading-[4rem] mb-4
+        @apply leading-[4rem] my-10 text-center 
     }
 
   }
