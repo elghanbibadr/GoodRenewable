@@ -42,6 +42,9 @@ html{
     button{
         @apply text-[1.8rem]
     }
+    .navbar__list li{
+        @apply leading-[4rem] mb-4
+    }
 
   }
 
@@ -49,10 +52,10 @@ p{
     font-family: 'Poppins', sans-serif;
 }
 
-h1{
+img{
+    cursor: pointer;
+}
+
+h1,.navbar__list li,h2,h3,h4,h5,h6{
     font-family: 'Sora', sans-serif;
-    font-size: 3.5rem;
-    line-height: 4rem;
-    font-weight: 700;
-     /* color: !important;  */
 }

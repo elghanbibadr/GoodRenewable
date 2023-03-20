@@ -1,8 +1,9 @@
 import React from 'react'
+import Nav from './componenet/Nav/Nav'
 const App = () => {
   return (
  
-   <h1>hello world</h1>
+   <Nav />
   )
 }
 
