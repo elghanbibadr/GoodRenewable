@@ -39,6 +39,10 @@ html{
         @apply text-[1.6rem] text-[300] leading-[2.6rem] text-paleBlack lg:text-[1.8rem]
     }
 
+    button{
+        @apply text-[1.8rem]
+    }
+
   }
 
 p{
