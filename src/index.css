@@ -43,7 +43,7 @@ html{
         @apply text-[1.8rem]
     }
     .navbar__list li{
-        @apply leading-[4rem] my-10 text-center 
+        @apply leading-[4rem]  my-10 md:my-2 md:mx-4 text-center 
     }
 
   }
@@ -57,5 +57,5 @@ img{
 }
 
 h1,.navbar__list li,h2,h3,h4,h5,h6{
-    font-family: 'Sora', sans-serif;
+     font-family: 'Sora', sans-serif; 
 }
