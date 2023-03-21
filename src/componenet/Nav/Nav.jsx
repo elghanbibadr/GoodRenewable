@@ -12,7 +12,7 @@ const Nav = () => {
     const hanldeCloseIconClicked=()=>setMenuCollapse(false)
   return (
     <header>
-    <nav className='p-4 flex items-center justify-between flex-wrap md:flex-nowrap'>
+    <nav className=' flex items-center justify-between flex-wrap md:flex-nowrap'>
      <img className={`${!menuCollapse ? "block":"hidden"} md:hidden`} src={logo} alt='logo' /> 
    <img className={`${menuCollapse ? "block":"hidden"} w-64 h-14 md:block lg:h-[4.2rem] lg:w-[30.7rem]`}  src={GoodRenewable} alt="goodRenewable logo"/>
     { !menuCollapse &&   <BookCallBtn text="Book a Call" className="md:hidden" fill="#152223" /> }  
