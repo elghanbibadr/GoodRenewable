@@ -6,12 +6,13 @@ import Features from './componenet/Features/Features'
 
 const App = () => {
   return (
-   <div className='lg:px-6 py-4'>
-   <Nav />
-   <Hero />
-   <Desc/>
-   <Features />
-   </div>
+
+    <>
+<Nav />
+<Hero />
+<Desc/>
+<Features />
+    </>
   )
 }
 
