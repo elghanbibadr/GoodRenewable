@@ -18,7 +18,7 @@ html{
     }
 
     h2{
-        @apply font-[700] text-[3rem] leading-[4rem] lg:text-[5.6rem] lg:leading-[7.2rem]
+        @apply font-[700] text-[3rem] leading-[4rem] lg:text-[5.5rem] lg:leading-[7.2rem]
     }
 
     h3{
@@ -87,3 +87,15 @@ strong::after{
     left: -80px;
 
 }
+
+/* features section */
+/* 
+.features{
+    position: relative;
+}
+.features::before{
+content: url(/src/assets/featuretopwave.svg);
+position: absolute;
+top: -16px;
+z-index: -22222;
+}  */

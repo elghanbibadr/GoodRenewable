@@ -6,11 +6,11 @@ const Hero = () => {
   return (
     <section className='md:flex relative'>
         <div className='mt-10 lg:mt-40 '>
-        <h1 className='w-[70%] lg:w-[80%]'>Harness the<strong className='strong-small' > Power</strong> of Community Engagement for <strong className='strong--taller'>Renewable</strong> Energy Projects</h1>
+        <h1 className=' md:w-[70%] lg:w-[80%]'>Harness the<strong className='strong-small' > Power</strong> of Community Engagement for <strong className='strong--taller'>Renewable</strong> Energy Projects</h1>
         <p className='text-black my-6 w-4/5 lg:w-1/3'>Creating clean energy projects with community support at the centre.</p>
          <BookCallBtn text="Book a Discovery Call" className="py-2 bg-black text-white md:py-4" fill="white" />
         </div>
-        <svg  className=' w-[80%] mx-auto md:absolute mt-10 md:w-1/2 md:right-4 md:top-[45%] lg:top-[60%]'  viewBox="0 0 753 483" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg  className='  mx-auto absolute mt-10 md:w-1/2 md:right-4 md:top-[45%] lg:top-[60%]'  viewBox="0 0 753 483" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_0_1)">
 <path d="M690.744 371H684.363L686.244 269.802H688.465L690.744 371Z" fill="#DBDBDB"/>
 <path d="M684.41 371H690.744L688.652 278.146C688.711 300.17 688.293 343.114 684.41 371Z" fill="#828282"/>
