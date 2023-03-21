@@ -1,6 +1,5 @@
 import React from 'react'
 import { Gridx2 } from '../UI/Gridx2'
-import mapImage from "../../assets/image 29.jpg" 
 const Features = () => {
   return (
 
