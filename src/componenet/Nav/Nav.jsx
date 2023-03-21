@@ -15,15 +15,15 @@ const Nav = () => {
     <nav className='p-4 flex items-center justify-between flex-wrap md:flex-nowrap'>
      <img className={`${!menuCollapse ? "block":"hidden"} md:hidden`} src={logo} alt='logo' /> 
    <img className={`${menuCollapse ? "block":"hidden"} w-64 h-14 md:block lg:h-[4.2rem] lg:w-[30.7rem]`}  src={GoodRenewable} alt="goodRenewable logo"/>
-    { !menuCollapse &&   <BookCallBtn className="md:hidden" /> }  
+    { !menuCollapse &&   <BookCallBtn text="Book a Call" className="md:hidden" fill="#152223" /> }  
   { !menuCollapse &&  <img onClick={hanldeMenuHamburgerClicked} className="md:hidden" src={menuBurger} alt="menu burger icon" />}    
      { menuCollapse && <img onClick={hanldeCloseIconClicked} className='md:hidden' src={closeIcon} alt="close icon" />}  
-       <ul className={ ` ${!menuCollapse ? "opacity-0 invisible h-0":"opacity-100 visible"} mx-auto md:mx-1 md:visible md:opacity-100 flex flex-col items-center mt-20 md:mt-auto  w-full md:w-auto    text-black navbar__list font-bold md:font-[400]  text-[3.2rem] md:flex-row  md:text-[1.6rem]`}>
+       <ul className={ ` ${!menuCollapse ? "opacity-0 invisible h-0":"opacity-100 visible"} mx-auto md:mx-1 md:visible md:opacity-100 flex flex-col items-center mt-20 md:mt-0  w-full md:w-auto    text-black navbar__list font-bold md:font-[400]  text-[3.2rem] md:flex-row  md:text-[1.6rem]`}>
         <li  ><a href='#'>Our Process</a></li>
         <li><a href='#'>Get Involved</a></li>
         <li><a href='#'>FAQ</a></li>
         <li><a href='#'>Our Team</a></li>
-        <li className='relative top-10 md:top-0 '><a href='#'><BookCallBtn /></a> </li>
+        <li className='relative top-10 md:top-0 '><a href='#'><BookCallBtn text="Book a Call" fill="#152223" /></a> </li>
      </ul>
       </nav>
     </header>
