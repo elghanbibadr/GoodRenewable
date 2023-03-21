@@ -1,7 +1,11 @@
 import React from 'react'
 import { Gridx2 } from '../UI/Gridx2'
+import mapImage from "../../assets/image 29.jpg" 
 const Features = () => {
   return (
+
+    <>
+    
     <Gridx2 className="mt-20 lg:mt-40  px-2" >
      <div className='p-2 md:p-6 md:col-start-2 md:row-start-1'>
          <h3 className='mb-8'>Creating Locally Supported Projects</h3>
@@ -206,6 +210,9 @@ const Features = () => {
 </svg>
 
     </Gridx2>
+
+
+    </>
   )
 }
 
