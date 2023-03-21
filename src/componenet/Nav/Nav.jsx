@@ -18,7 +18,7 @@ const Nav = () => {
     { !menuCollapse &&   <BookCallBtn className="md:hidden" /> }  
   { !menuCollapse &&  <img onClick={hanldeMenuHamburgerClicked} className="md:hidden" src={menuBurger} alt="menu burger icon" />}    
      { menuCollapse && <img onClick={hanldeCloseIconClicked} className='md:hidden' src={closeIcon} alt="close icon" />}  
-       <ul className={ ` ${!menuCollapse ? "opacity-0 invisible":"opacity-100 visible"} mx-auto md:mx-1 md:visible md:opacity-100 flex flex-col items-center mt-20 md:mt-auto  w-full md:w-auto    text-black navbar__list font-bold md:font-[400]  text-[3.2rem] md:flex-row  md:text-[1.6rem]`}>
+       <ul className={ ` ${!menuCollapse ? "opacity-0 invisible h-0":"opacity-100 visible"} mx-auto md:mx-1 md:visible md:opacity-100 flex flex-col items-center mt-20 md:mt-auto  w-full md:w-auto    text-black navbar__list font-bold md:font-[400]  text-[3.2rem] md:flex-row  md:text-[1.6rem]`}>
         <li  ><a href='#'>Our Process</a></li>
         <li><a href='#'>Get Involved</a></li>
         <li><a href='#'>FAQ</a></li>

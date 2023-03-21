@@ -14,11 +14,11 @@ html{
 
 @layer components {
     h1 {
-      @apply lg:text-[6.4rem] lg:leading-[7.2rem];
+      @apply text-[3.3rem]   font-[700] leading-[4rem] lg:text-[6.4rem] lg:leading-[7.2rem];
     }
 
     h2{
-        @apply font-[700] text-[3.2rem] leading-[4rem] lg:text-[5.6rem] lg:leading-[7.2rem]
+        @apply font-[700] text-[3rem] leading-[4rem] lg:text-[5.6rem] lg:leading-[7.2rem]
     }
 
     h3{
@@ -58,4 +58,32 @@ img{
 
 h1,.navbar__list li,h2,h3,h4,h5,h6{
      font-family: 'Sora', sans-serif; 
+}
+
+
+strong{
+    position: relative;
+    color: #5ada2e;
+}
+
+.strong-small::after{
+    content: url("/src/assets/shortLine.svg");
+    top: 16px;
+    left: 10px;
+}
+
+
+strong::after{
+    display: inline-flex;
+    position: absolute;
+   
+
+}
+
+
+.strong--taller::after{
+    content: url("/src/assets/tallerLight.svg");
+    top: 16px;
+    left: -80px;
+
 }
