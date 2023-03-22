@@ -1,9 +1,11 @@
 import React from 'react'
-import map from "../../assets/map.svg"
+import desktopMap from "../../assets/desktopMap.svg"
+import mobileMap from "../../assets/mobileMap.svg"
 export const Map = () => {
   return (
     <div className='mt-40 p-4 mb-40 map '>  
-    <img  className='mx-auto lg:w-[80%]' src={map} />
+    <img  className='hidden md:block mx-auto lg:w-[80%]' src={desktopMap} />
+    <img  className='mx-auto md:hidden' src={mobileMap} />
     </div>
   )
 }
