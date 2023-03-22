@@ -11,10 +11,12 @@ const App = () => {
     <>
   <Nav />
 <Hero />
-<Desc/> 
- <Features /> 
- <OurProcess/>
- <Callout />
+<div className='lg:px-12'>
+  <Desc/>
+   <Features />
+   <OurProcess/>
+   <Callout />
+</div>
     </>
   )
 }
