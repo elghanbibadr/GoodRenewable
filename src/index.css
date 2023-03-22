@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+*,::after,::before{
+    box-sizing: border-box;
+}
 
 /* body{
 } */
@@ -40,7 +43,7 @@ body{
         @apply text-black
     }
     p{
-        @apply text-[1.6rem] text-[300] leading-[2.6rem] text-paleBlack lg:text-[1.7rem]
+        @apply text-[1.6rem] font-[400] leading-[2.6rem] text-paleBlack lg:text-[1.7rem]
     }
 
     button{
