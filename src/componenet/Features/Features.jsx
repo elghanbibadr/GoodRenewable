@@ -1,5 +1,7 @@
 import React from 'react'
 import { Gridx2 } from '../UI/Gridx2'
+import {Map} from './Map'
+import humanShaking from "../../assets/humansShaking.svg"
 const Features = () => {
   return (
 
@@ -207,9 +209,22 @@ const Features = () => {
 </filter>
 </defs>
 </svg>
-
     </Gridx2>
+  <Map />
 
+  <Gridx2>
+
+<div className='p-2 md:p-6 '>
+         <h3 className='mb-8'>Empowering Communities, Driving Consent</h3>
+         <p>
+         We ask the community to set a vision for projects in their area. This helps turn local opposition into positive support, and fosters long-term backing for clean energy.
+         <br />
+         Local residents, businesses, and community leaders are involved right from the outset. Participants engage with the planning process and identify potential sites using our educational and mapping resources.
+         </p>
+     </div>
+     <img className='justify-self-center  max-w-[400px]   md:w-[70%] mx-auto' src={humanShaking}  />
+
+  </Gridx2>
 
     </>
   )
