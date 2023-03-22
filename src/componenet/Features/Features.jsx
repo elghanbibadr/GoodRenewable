@@ -222,7 +222,7 @@ const Features = () => {
          Local residents, businesses, and community leaders are involved right from the outset. Participants engage with the planning process and identify potential sites using our educational and mapping resources.
          </p>
      </div>
-     <img className='justify-self-center  max-w-[400px]   md:w-[70%] mx-auto' src={humanShaking}  />
+     <div className='justify-self-center   w-[80%]   md:w-[80%] lg:w-[70%] mx-auto'><img  src={humanShaking}  /></div>
 
   </Gridx2>
 

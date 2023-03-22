@@ -12,6 +12,10 @@ html{
 
 
 
+body{
+    background-color: #F4FFE7;
+}
+
 @layer components {
     h1 {
       @apply text-[3.3rem]   font-[700] leading-[4rem] lg:text-[6.4rem] lg:leading-[7.2rem];
