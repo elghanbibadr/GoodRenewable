@@ -1,12 +1,18 @@
 import React from 'react'
-
+import wave from "../assets/heroWaves.svg"
+import wave2 from "../assets/Vector40.svg"
+import wave3 from "../assets/Vector42.svg"
+// this is the componenet under the hero section and the waves are the edges on top and bottom of the green background
 const Desc = () => {
   return (
     <>
-    
-    <div className='bg-green-secondary  md:grid md:p-10 items-center md:grid-cols-2 pt-[50%] mt-60 '>
-        <div>
-            <h2 className='mb-6'>Unlocking the Power of Local People</h2>
+    <div className='relative' >
+       <img className="absolute top-[14rem] md:top-[12rem]"   src={wave3}  alt="wave svg "  /> 
+      <img className="relative top-60"  src={wave2}  alt="wave svg"  />
+      </div>
+    <div className='bg-green-secondary  desc md:grid md:p-10 items-center md:grid-cols-2 pt-[50%] mt-60 '>
+        <div className='relative bottom-12'>
+            <h2 className='mb-6  '>Unlocking the Power of Local People</h2>
             <p className='text-black'>Over 70% of people support renewable energy development, yet nearly half of all wind and solar projects fail due to community opposition. It’s time to change that.</p>
             <p className='text-black my-6'>We believe in engaging local people by making their voices heard on how clean energy projects are developed.</p>
         </div>
@@ -55,6 +61,8 @@ const Desc = () => {
 </svg>
 
     </div>
+    <img  src={wave} alt="wave svg " />
+
     </>
   )
 }
