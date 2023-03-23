@@ -6,6 +6,7 @@ import Features from './componenet/Features/Features'
 import OurProcess from './componenet/Ourprocess/OurProcess'
 import Callout from './componenet/Callout/Callout'
 import Faq from './componenet/Faq/Faq'
+import OurTeam from './componenet/OurTeam/OurTeam'
 const App = () => {
   return (
 
@@ -18,6 +19,7 @@ const App = () => {
    <OurProcess/>
    <Callout />
    <Faq />
+   <OurTeam />
 </div>
     </>
   )
