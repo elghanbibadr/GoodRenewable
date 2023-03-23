@@ -1,4 +1,4 @@
-const faqData=[
+export const  faqData=[
     {
         id:1,
         question:"Can you guarantee 100% support from local communities? ",
