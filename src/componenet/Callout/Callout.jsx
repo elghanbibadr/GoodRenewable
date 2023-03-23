@@ -12,7 +12,7 @@ const Callout = () => {
             GoodRenewable is in the process of running workshops and consultations across the UK. We want to hear from communities, developers and landowners interested in being part of our pioneer projects. Book your discovery call below.
             </p>
         </div>
-        <BookCallBtn fill='white' className='py-4 md:row-start-3 md:mx-auto mb-20 bg-black text-white' text='Book a Discovery Call'/>
+        <BookCallBtn fill='white' className='py-4 md:mt-10 md:row-start-3 md:mx-auto mb-20 bg-black text-white' text='Book a Discovery Call'/>
      <Gridx3>
        {CalloutCardsData.map(({id,title,text,img})=>{
           return <CalloutCard id={id} title={title} text={text} img={img} />;

@@ -15,7 +15,7 @@ module.exports = {
      "white": "#FFF"
     },
     screens: {
-      'sm': '360px',
+      'sm': '340px',
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',

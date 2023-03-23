@@ -5,17 +5,19 @@ import Desc from './componenet/Desc'
 import Features from './componenet/Features/Features'
 import OurProcess from './componenet/Ourprocess/OurProcess'
 import Callout from './componenet/Callout/Callout'
+import Faq from './componenet/Faq/Faq'
 const App = () => {
   return (
 
     <>
   <Nav />
 <Hero />
-<div className='lg:px-12'>
+<div className=' px-2 lg:px-12'>
   <Desc/>
    <Features />
    <OurProcess/>
    <Callout />
+   <Faq />
 </div>
     </>
   )
