@@ -74,9 +74,16 @@ strong{
 }
 
 .strong-small::after{
-    content: url("/src/assets/shortLine.svg");
-    top: 16px;
-    left: 10px;
+    content: url("/src/assets/shortLine.svg"); 
+    top: 14px;
+    left: 12px;
+}
+@media (min-width: 1110px){
+    .strong-small::after{
+        content: url("/src/assets/powerUnderlineDesktop.svg"); 
+        top: 18px;
+        left: 16px;
+    }
 }
 
 
@@ -93,6 +100,14 @@ strong::after{
     top: 16px;
     left: -80px;
 
+}
+
+@media (min-width: 1110px){
+    .strong--taller::after{
+        content: url("/src/assets/renewableUnderLineDesktop.svg");
+        top: 22px;
+        left: 0;
+    }
 }
 
 .section{

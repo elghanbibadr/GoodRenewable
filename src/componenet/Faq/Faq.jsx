@@ -21,7 +21,7 @@ const Faq = () => {
         </div>
 
        {faqData.map(({id,question,answer})=>{
-        return <div onClick={hanldeQuestionClicked} key={id} id={id} className='bg-white cursor-pointer rounded-[16px] relative p-4 md:p-8 my-10' key={id}>
+        return <div onClick={hanldeQuestionClicked} key={id} id={id} className='bg-white cursor-pointer rounded-[16px] relative p-4 md:p-8 my-10' >
             <h5 className='w-[80%]'>{question}</h5>
             <img className={`absolute top-10 right-4 ${activeIndex==id ? "rotate-180":""}`} src={arrow} />
           <p className={`${activeIndex == id ? "opacity-100 visible":"opacity-0 invisible h-0"} transition-opacity duration-1000`}> {answer}</p>
