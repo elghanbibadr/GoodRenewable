@@ -10,22 +10,21 @@ import Callout from './componenet/Callout/Callout'
 import Faq from './componenet/Faq/Faq'
 import OurTeam from './componenet/OurTeam/OurTeam'
 import Footer from './componenet/Footer/Footer'
-
+import Layout from './componenet/UI/Layout'
 const App = () => {
   return (
 
     <>
-      <Nav />
-      <Hero />
-      <div className=' px-2 lg:px-12'>
+      <Layout>
+        <Nav />
+        <Hero />
         <Desc />
         <Features />
-        <OurProcess />
         <Callout />
         <Faq />
         <OurTeam />
-      </div>
-        <Footer />
+      </Layout>
+      <Footer />
     </>
   )
 }
