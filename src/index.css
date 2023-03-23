@@ -98,3 +98,10 @@ strong::after{
 .section{
     margin-top: 6rem;
 }
+
+
+
+.book-call-btn:hover path {
+    fill: white;
+  }
+  
