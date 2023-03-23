@@ -95,13 +95,6 @@ strong::after{
 
 }
 
-
-
-footer{
-    margin-top: 10rem;
-    /* background-image:; */
-    /* background-repeat: no-repeat; */
-     background-size: cover; 
-     background-repeat: no-repeat;
-    /* background-position: center; */
+.section{
+    margin-top: 6rem;
 }
