@@ -104,4 +104,8 @@ strong::after{
 .book-call-btn:hover path {
     fill: white;
   }
-  
+
+.book-discoveryCall-btn:hover path {
+    fill: #152223e6;
+}
+
