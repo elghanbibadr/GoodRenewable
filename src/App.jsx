@@ -1,4 +1,6 @@
 import React from 'react'
+// import { Nav, Hero, Desc, Features, OurProcess, Callout, Faq, OurTeam, Footer } from './componenet';
+
 import Nav from './componenet/Nav/Nav'
 import Hero from './componenet/Hero/Hero'
 import Desc from './componenet/Desc'
@@ -8,6 +10,7 @@ import Callout from './componenet/Callout/Callout'
 import Faq from './componenet/Faq/Faq'
 import OurTeam from './componenet/OurTeam/OurTeam'
 import Footer from './componenet/Footer/Footer'
+
 const App = () => {
   return (
 
