@@ -95,26 +95,13 @@ strong::after{
 
 }
 
-/* features section */
-/* 
-.features{
-    position: relative;
+
+
+footer{
+    margin-top: 10rem;
+    /* background-image:; */
+    /* background-repeat: no-repeat; */
+     background-size: cover; 
+     background-repeat: no-repeat;
+    /* background-position: center; */
 }
-.features::before{
-content: url(/src/assets/featuretopwave.svg);
-position: absolute;
-top: -16px;
-z-index: -22222;
-}  */
-
-
-/* map section */
-
-  .map{
-    background-image: url(/src/assets/mapItems.svg);
-    background-repeat: no-repeat;
-    z-index: 777777777777777;
-    background-position: center;
-     background-size: contain;
-
-}  

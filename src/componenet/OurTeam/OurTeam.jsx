@@ -9,7 +9,7 @@ const OurTeam = () => {
     <h2 className='text-center mb-6'>Our Team</h2>
     <Gridx3 className='lg:w-[80%] lg:mx-auto'>
     {TeamData.map(({id,name,role,img})=>{
-        return <Card className="text-center max-w-[348px] mx-auto  p-4 my-4">
+        return <Card key={id} className="text-center max-w-[348px] mx-auto  p-4 my-4">
             <img className='w-[40%] my-6  mx-auto' src={img} />
             <h5>{name}</h5>
             <p>{role}</p>
