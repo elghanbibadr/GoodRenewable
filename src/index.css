@@ -78,9 +78,26 @@ strong{
     top: 14px;
     left: 12px;
 }
+
+.strong-ourTeam::after{
+    content: url("/src/assets/shortLine.svg"); 
+    top: 14px;
+    left: 1px;
+}
+
+
+
 @media (min-width: 1110px){
     .strong-small::after{
         content: url("/src/assets/powerUnderlineDesktop.svg"); 
+        top: 18px;
+        left: 16px;
+    }
+}
+
+@media (min-width: 1110px){
+    .strong-ourTeam::after{
+        content: url("/src/assets/ourTeamDesktopUnderline.svg"); 
         top: 18px;
         left: 16px;
     }
