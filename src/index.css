@@ -126,13 +126,6 @@ strong::after{
         left: 0;
     }
 } 
- /* @media (min-width: 1110px){
-    .involved-early::after{
-        content: url("/src/assets/getinvolvedunderline.svg") !important;
-        top: 22px;
-        left: 20px;
-    }
-}  */
 
 
 
