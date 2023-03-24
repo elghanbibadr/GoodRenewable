@@ -1,4 +1,6 @@
 import React ,{useState,useEffect} from 'react'
+import { Link, Element } from 'react-scroll';
+
 import logo from "../../assets/Logo.svg"
 import menuBurger from "../../assets/burger.svg"
 import closeIcon from "../../assets/close.svg"
