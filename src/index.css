@@ -128,3 +128,10 @@ strong::after{
 
 
 
+
+
+
+/* change the path color on the svg icon for the linkedin logo when user hover over it */
+.linkedinIcon:hover path{
+fill:#0A66C2;
+}
