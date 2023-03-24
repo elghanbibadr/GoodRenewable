@@ -8,7 +8,7 @@ const Hero = () => {
         <div className='mt-10 lg:mt-40 '>
         <h1 className=' md:w-[70%] lg:w-[80%]'>Harness the<strong className='strong-small after:content-bg' > Power</strong> of Community Engagement for <strong className='strong--taller'>Renewable</strong> Energy Projects</h1>
         <p className='text-black my-6 w-4/5 lg:w-1/3'>Creating clean energy projects with community support at the centre.</p>
-         <BookCallBtn text="Book a Discovery Call" className="py-3 book-discoveryCall-btn bg-black text-white hover:bg-paleWhite hover:text-black md:py-4"  />
+         <BookCallBtn fill="white" text="Book a Discovery Call" className="py-3 book-discoveryCall-btn bg-black text-white hover:bg-paleWhite hover:text-black md:py-4"  />
         </div>
         <svg  className='mx-auto z-50 absolute mt-10 md:w-1/2 md:right-4 md:top-[45%] lg:top-[60%]'  viewBox="0 0 753 483" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_0_1)">

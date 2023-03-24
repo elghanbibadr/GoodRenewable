@@ -35,7 +35,7 @@ const Nav = () => {
     };
 
   return (
-    <header className={` ${isSticky ? 'fixed inset-0 z-[999999999] h-fit bg-white' : ''}`}>
+    <header className={` ${isSticky ? 'fixed inset-0 z-[999999999] shadow-lg h-fit bg-white' : ''}`}>
     <nav className=' flex py-4  items-center justify-between flex-wrap relative md:flex-nowrap md:pt-6'>
      <img className={`${!menuCollapse ? "block":"hidden"} md:hidden`} src={logo} alt='logo' /> 
    <img className={`${menuCollapse ? "block":"hidden"} w-64 h-14 md:block lg:h-[4.2rem] lg:w-[32rem] lg:relative lg:right-16`}  src={GoodRenewable} alt="goodRenewable logo"/>

@@ -102,13 +102,22 @@ strong::after{
 
 }
 
-@media (min-width: 1110px){
+ @media (min-width: 1110px){
     .strong--taller::after{
         content: url("/src/assets/renewableUnderLineDesktop.svg");
-        top: 22px;
+        top: 25px;
         left: 0;
     }
-}
+} 
+ /* @media (min-width: 1110px){
+    .involved-early::after{
+        content: url("/src/assets/getinvolvedunderline.svg") !important;
+        top: 22px;
+        left: 20px;
+    }
+}  */
+
+
 
 .section{
     margin-top: 6rem;
@@ -134,4 +143,13 @@ strong::after{
 /* change the path color on the svg icon for the linkedin logo when user hover over it */
 .linkedinIcon:hover path{
 fill:#0A66C2;
+}
+
+
+/* add a general style to all the buttons */
+button,.linkedinIcon{
+    transition: transform 0.5s linear;
+}
+button:hover,.linkedinIcon:hover{
+transform: scale(1.03);
 }
