@@ -1,5 +1,5 @@
 import React from 'react'
-import { lazy ,Suspense } from 'react'
+import { Element } from 'react-scroll'
 import Nav from './componenet/Nav/Nav'
 import Hero from './componenet/Hero/Hero'
 import Desc from './componenet/Desc'
@@ -8,10 +8,9 @@ import OurProcess from './componenet/Ourprocess/OurProcess'
 import Callout from './componenet/Callout/Callout'
 import Faq from './componenet/Faq/Faq'
 import OurTeam from './componenet/OurTeam/OurTeam'
-// import Footer from './componenet/Footer/Footer'
+ import Footer from './componenet/Footer/Footer'
 import Layout from './componenet/UI/Layout'
 
-const Footer=lazy(()=>import('./componenet/Footer/Footer'))
 const App = () => {
   return (
 
@@ -21,10 +20,18 @@ const App = () => {
         <Hero />
         <Desc />
         <Features />
+        <Element name="Our Process">
         <OurProcess />
-        <Callout />
-        <Faq />
-        <OurTeam />
+        </Element>
+        <Element name='Get Involved'>
+          <Callout />
+        </Element>
+        <Element name="FAQ">
+          <Faq />
+        </Element>
+        <Element name="Our Team">
+          <OurTeam />
+        </Element>
       </Layout>
         <Footer />
     </>

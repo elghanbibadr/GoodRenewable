@@ -44,7 +44,7 @@ const Nav = () => {
      { menuCollapse && <img onClick={hanldeCloseIconClicked} className='md:hidden px-3' src={closeIcon} alt="close icon" />}  
         <ul className={ ` ${!menuCollapse ? "hidden h-0":" h-screen"} mx-auto md:flex  transition-opacity duration-1000 md:mx-1 md:visible md:h-fit  md:opacity-100 flex flex-col items-center mt-20 md:mt-0  w-full md:w-auto    text-black navbar__list font-bold md:font-[400]  text-[3.2rem] md:flex-row  md:text-[1.6rem]`}>
           {listLinks.map((link,index) =>{
-                return <li  key={index}><a href='#'>{link}</a></li>
+                return <li  key={index}><Link to={link} offset={-100} smooth={true} duration={500}><a href='#'>{link}</a></Link></li>
             })}
         <li className='relative top-10 md:top-0 '><a href='#'><BookCallBtn className='book-call-btn  hover:bg-black hover:text-white' text="Book a Call" fill="#152223" /></a> </li>
      </ul> 
