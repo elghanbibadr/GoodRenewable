@@ -1,4 +1,3 @@
-import React from 'react'
 import { Gridx2 } from '../UI/Gridx2'
 import { Map } from './Map'
 import humanShaking from "../../assets/humansShaking.svg"
@@ -8,14 +7,14 @@ const Features = () => {
     <>
 
       <Gridx2 className="mt-20 lg:mt-40  px-2" >
-        <div data-aos="fade-left" data-aos-offset="300" className='p-2 md:p-6 md:col-start-2 md:row-start-1'>
+        <div data-aos="fade-left"  className='p-2 md:p-6 md:col-start-2 md:row-start-1'>
           <h3 className='mb-8'>Creating Locally Supported Projects</h3>
           <p>
             GoodRenewable helps realise renewable energy projects with embedded community support. Our innovative approach engages local people from the outset and has been shown to increase community support for projects
             We work with landowners and developers to drive forward projects that communities have shown support for.
           </p>
         </div>
-        <div data-aos="fade-up-right" data-aos-offset="300">
+        <div data-aos="fade-up-right" >
           <svg className='justify-self-center  max-w-[400px]   md:w-[70%] mx-auto' viewBox="0 0 329 229" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M173.267 95.8871C112.543 95.9396 90.5373 90.4373 51.2923 96.853C34.5288 99.5933 33.3311 101.448 33.2509 102.256C32.5443 109.184 105.627 114.761 104.63 119.047C103.597 123.513 23.5286 120.643 21.088 127.154C18.7877 133.298 89.6202 137.152 100.706 156.298C110.413 173.067 64.4976 184.654 72.075 197.794C87.0994 223.849 295.437 226.543 306.613 206.867C312.552 196.412 267.243 171.891 217.584 165.756C202.925 163.945 184.733 163.346 182.679 159.001C179.552 152.391 218.356 146.836 217.193 137.189C216.161 128.632 184.738 125.691 177.973 111.906C176.259 108.419 177.206 106.429 178.364 105.151C183.836 99.1212 203.376 98.6922 203.111 97.3529C202.81 95.8346 177.652 95.884 173.262 95.8871H173.267Z" fill="#B8F36F" />
             <path d="M174.526 87.0887C104.909 87.1488 79.6816 80.8455 34.6899 88.1952C15.4718 91.3344 14.0987 93.4591 14.0067 94.3853C13.1966 102.322 96.9808 108.71 95.8375 113.62C94.654 118.736 2.86079 115.448 0.0628152 122.907C-2.57429 129.946 78.6302 134.362 91.3389 156.294C102.468 175.504 49.8289 188.779 58.5158 203.832C75.7403 233.68 314.585 236.766 327.397 214.226C334.206 202.248 282.262 174.157 225.332 167.129C208.526 165.054 187.671 164.368 185.315 159.391C181.73 151.818 226.216 145.455 224.883 134.404C223.7 124.601 187.677 121.232 179.92 105.44C177.956 101.445 179.041 99.1649 180.369 97.7014C186.643 90.7936 209.044 90.3022 208.739 88.7679C208.394 87.0286 179.553 87.0851 174.52 87.0887H174.526Z" fill="#B8F36F" />
@@ -224,7 +223,7 @@ const Features = () => {
             Local residents, businesses, and community leaders are involved right from the outset. Participants engage with the planning process and identify potential sites using our educational and mapping resources.
           </p>
         </div>
-        <div data-aos="fade-up-left" data-aos-offset="300" className='justify-self-center   w-[80%]   md:w-[80%] lg:w-[70%] mx-auto'><img src={humanShaking} /></div>
+        <div data-aos="fade-up-left"  className='justify-self-center   w-[80%]   md:w-[80%] lg:w-[70%] mx-auto'><img src={humanShaking} /></div>
 
       </Gridx2>
 
