@@ -5,9 +5,7 @@ import 'aos/dist/aos.css';
 
 const Hero = () => {
 
-  useEffect(() => {
     AOS.init();
-  }, []);
 
   return (
     <section className='md:flex section hero relative'>

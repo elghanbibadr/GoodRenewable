@@ -9,8 +9,8 @@ const OurProcess = () => {
         <h2 className='mb-10'>OurProcess</h2>
         <p className='md:mb-20'>The three-step strategy is carefully designed to maximise the likelihood of success</p>
     </div>
-    {ourProcessData.map(({id,title,img,text})=>{
-        return <OurProcessItem key={id} id={id} title={title} img={img} text={text} />
+    {ourProcessData.map(({id,title,img,text,animation})=>{
+        return <OurProcessItem animation={animation} key={id} id={id} title={title} img={img} text={text} />
     })}
   </div>
   )
