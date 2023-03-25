@@ -5,12 +5,11 @@ import wave3 from "../assets/Vector42.svg"
 // this is the componenet under the hero section and the waves are the edges on top and bottom of the green background
 const Desc = () => {
 
-
   return (
     <>
       <div className='relative' >
-        <img className="absolute top-[14rem] md:top-[12rem]" src={wave3} alt="wave svg " />
-        <img className="relative top-60" src={wave2} alt="wave svg" />
+        <img  className="absolute top-[14rem] md:top-[12rem]" src={wave3} alt="wave svg " loading="lazy" />
+        <img className="relative top-60" src={wave2} alt="wave svg"  loading="lazy"/>
       </div>
       <div className='bg-green-secondary  desc md:grid md:p-10 items-center md:grid-cols-2 pt-[50%] mt-60 '>
         <div data-aos="fade-up-right" className='relative bottom-12'>
