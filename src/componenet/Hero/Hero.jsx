@@ -1,11 +1,9 @@
-import React ,{useEffect} from 'react'
 import BookCallBtn from '../Nav/BookCallBtn'
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import 'aos/dist/aos.css';
 
 const Hero = () => {
 
-    AOS.init();
 
   return (
     <section className='md:flex section hero relative'>
