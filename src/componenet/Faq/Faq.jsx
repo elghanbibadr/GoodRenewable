@@ -28,14 +28,18 @@ const Faq = () => {
             <button id="3" className={`border-paleBlack w-[70%] sm:w-[32rem] ${currentVisibleData==landownersFaqData ? "bg-green text-white":"border-paleBlack "} text-[1.8rem] px-6 mx-2 font-[600] border-[2px] py-4 rounded-full`}>Landowners </button>
         </div>
 
-       {currentVisibleData.map(({id,question,answer})=>{
-        return <div onClick={hanldeQuestionClicked} key={id} id={id} className='bg-white cursor-pointer rounded-[16px] relative p-4 md:p-8 my-10' >
-            <h5 className='w-[80%]'>{question}</h5>
-            <img className={`absolute top-10 right-4 ${activeIndex==id ? "rotate-180":""}`} src={arrow} />
-          <p className={`${activeIndex == id ? "opacity-100 visible":"opacity-0 invisible h-0"} transition-opacity duration-1000`}> {answer}</p>
-        </div>
-
-       })}
+         <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+           {currentVisibleData.map(({id,question,answer})=>{
+            return <div onClick={hanldeQuestionClicked} key={id} id={id} className='bg-white cursor-pointer rounded-[16px] relative p-4 md:p-8 my-10' >
+                <h5 className='w-[80%]'>{question}</h5>
+                <img className={`absolute top-10 right-4 ${activeIndex==id ? "rotate-180":""}`} src={arrow} />
+              <p className={`${activeIndex == id ? "opacity-100 visible":"opacity-0 invisible h-0"} transition-opacity duration-1000`}> {answer}</p>
+            </div>
+           
+                  })}
+         </div>
     </div>
   )
 }
