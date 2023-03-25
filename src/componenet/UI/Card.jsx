@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = (props) => {
   return (
-    <div className={`${props.className} bg-white`}>{props.children}</div>
+    <div data-aos={props.animation} className={`${props.className} bg-white`}>{props.children}</div>
   )
 }
 
