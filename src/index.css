@@ -87,7 +87,7 @@ strong{
 
 
 
-@media (min-width: 1110px){
+@media   (min-width: 1110px){
     .strong-small::after{
         content: url("/src/assets/powerUnderlineDesktop.svg"); 
         top: 18px;
@@ -95,7 +95,7 @@ strong{
     }
 }
 
-@media (min-width: 1110px){
+@media   (min-width: 1110px){
     .strong-ourTeam::after{
         content: url("/src/assets/ourTeamDesktopUnderline.svg"); 
         top: 18px;

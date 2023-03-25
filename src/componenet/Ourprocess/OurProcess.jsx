@@ -10,7 +10,7 @@ const OurProcess = () => {
         <p className='md:mb-20'>The three-step strategy is carefully designed to maximise the likelihood of success</p>
     </div>
     {ourProcessData.map(({id,title,img,text})=>{
-        return <OurProcessItem id={id} title={title} img={img} text={text} />
+        return <OurProcessItem key={id} id={id} title={title} img={img} text={text} />
     })}
   </div>
   )
