@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* let"s define some general and resuable  styling  */
 *,::after,::before{
     box-sizing: border-box;
 }
 
-/* body{
-} */
+
 
 html{
     font-size: 62.5%;
@@ -18,8 +19,6 @@ html{
 body{
     background-color: #F4FFE7;
     overflow-x: hidden;
-
-
 }
 
 @layer components {
@@ -71,15 +70,17 @@ h1,.navbar__list li,h2,h3,h4,h5,h6{
 }
 
 
+/* this is the roles for all the green words and the underline svg of them */
+
 strong{
     position: relative;
     color: #5ada2e;
 }
 
-.strong-small::after{
+ .strong-small::after{
     content: url("/src/assets/shortLine.svg"); 
     top: 14px;
-    left: 12px;
+    left: 10px;
 }
 
 .strong-ourTeam::after{
@@ -108,10 +109,7 @@ strong{
 
 
 strong::after{
-    display: inline-flex;
     position: absolute;
-   
-
 }
 
 
@@ -132,12 +130,9 @@ strong::after{
 
 
 
-.section{
-    margin-top: 6rem;
-}
 
 
-/*  */
+/* buttons styling */
 
 
 .book-call-btn:hover path {

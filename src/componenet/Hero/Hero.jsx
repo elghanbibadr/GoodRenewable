@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section className='md:flex section hero relative'>
         <div data-aos="fade-right"   data-aos-offset="300" data-aos-easing="ease-in-sine" className='mt-10 lg:mt-40 '>
-        <h1 className=' md:w-[70%] lg:w-[80%]'>Harness the<strong className='strong-small after:content-bg' > Power</strong> of Community Engagement for <strong className='strong--taller'>Renewable</strong> Energy Projects</h1>
+        <h1 className=' md:w-[70%] lg:w-[80%]'>Harness the<strong className='strong-small ' > Power</strong>  of Community Engagement for <strong className='strong--taller'>Renewable</strong> Energy Projects</h1>
         <p className='text-black my-6 w-4/5 lg:w-1/3'>Creating clean energy projects with community support at the centre.</p>
          <BookCallBtn fill="white" text="Book a Discovery Call" className="py-3 book-discoveryCall-btn bg-black text-white hover:bg-paleWhite hover:text-black md:py-4"  />
         </div>

@@ -6,6 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 // this is the componenet under the hero section and the waves are the edges on top and bottom of the green background
 const Desc = () => {
+  
     AOS.init();
 
   return (
