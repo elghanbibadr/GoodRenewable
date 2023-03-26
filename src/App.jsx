@@ -1,5 +1,4 @@
 import React from 'react'
-import Aos from 'aos'
 import { Element } from 'react-scroll'
 import Nav from './componenet/Nav/Nav'
 import Hero from './componenet/Hero/Hero'
@@ -13,7 +12,7 @@ import OurTeam from './componenet/OurTeam/OurTeam'
 import Layout from './componenet/UI/Layout'
 
 const App = () => {
-  Aos.init()
+
   return (
 
     <>
