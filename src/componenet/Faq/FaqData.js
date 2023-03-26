@@ -8,31 +8,38 @@ export const  developersFaqData=[
     {
         id:2,
         question:"Are projects technically verified ? ",
-        answer:"It is almost impossible to get all community members to agree to a new project. However, our approach is designed to clearly show what the majority opinion of the community is, which is important evidence for local authorities when making decisions on approving the project.",
+        answer:"One of our essential roles is ensuring community members plan based on the constraints that  exist in the area making projects unfeasible (protected areas, distance to settlements and the  electricity grid, etc.). Our process enables communities to propose projects that are feasible. Each developer, of course, makes their own decision as to whether a project makes sense or is feasible for them.",
 
     },
     {
         id:3,
         question:"What happens if the initial project scope is changed?",
-        answer:"It is almost impossible to get all community members to agree to a new project. However, our approach is designed to clearly show what the majority opinion of the community is, which is important evidence for local authorities when making decisions on approving the project.",
+        answer:"We understand project plans change as they are developed, whether that’s the specifications of  technology used or even the location of the site. We encourage communities to understand this and build flexibility into their proposals. In cases where significant changes are necessary  beyond the scope provided by communities we encourage and facilitate follow-up engagement to ratify community support.",
 
     },
     {
         id:4,
         question:"How is ownership of the projects structured?",
-        answer:"It is almost impossible to get all community members to agree to a new project. However, our approach is designed to clearly show what the majority opinion of the community is, which is important evidence for local authorities when making decisions on approving the project.",
+        answer:"Communities may propose part-ownership or other community benefits in a project. We provide guidance on what ownership or community benefit models are feasible. Developers are free to choose what share is designated for community ownership or benefits are offered. In cases where this is not aligned with the community proposal ratification of support is recommended.",
 
     },
     {
         id:5,
         question:"How do you account for congestion in the UK electricity grid?        ",
-        answer:"It is almost impossible to get all community members to agree to a new project. However, our approach is designed to clearly show what the majority opinion of the community is, which is important evidence for local authorities when making decisions on approving the project.",
+        answer:"We try to generate projects in areas where we believe there is still available capacity or that there are other routes to market (selling electricity to larger customers in the area). Where connection is not possible or only available in the near future, developers can simply reserve a  site and wait until market and technical conditions become suitable to start planning and  development.",
 
     },
     {
         id:6,
         question:"How does GoodRenewable charge developers? ",
-        answer:"It is almost impossible to get all community members to agree to a new project. However, our approach is designed to clearly show what the majority opinion of the community is, which is important evidence for local authorities when making decisions on approving the project.",
+        answer:"We charge a subscription to access the project we publish as well as a success fee on projects that developers take through to construction. The success fee is linked to project scale. Get in touch with us to find out more about our fee structure. [Get in touch underlined and links to hello@goodrenewable.io email]",
+
+    },
+   
+    {
+        id:7,
+        question:"Who is behind GoodRenewable?",
+        answer:"We are a group of UK experts with decades of experience in renewable energy, community  engagement and workshop facilitation",
 
     },
    

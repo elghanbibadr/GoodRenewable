@@ -1,6 +1,6 @@
 import communitesImage from "../../assets/localCommunity.svg"
 import developersImg from '../../assets/developers.svg'
-import landowner from '../../assets/humansShaking.svg'
+import landowner from '../../assets/landowners.svg'
 export const CalloutCardsData=[
     {
         id:1,

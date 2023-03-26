@@ -56,7 +56,9 @@ body{
     .navbar__list li{
         @apply leading-[4rem]  my-10 md:my-2 md:mx-4 text-center 
     }
-
+    .faqBtn{
+        @apply w-[70%] border-[#D0D3D3] my-4 md:w-[17.3rem]  text-[1.8rem]  mx-2 font-[600] border-[2px] py-6 rounded-full
+    }
   }
 
 
@@ -145,6 +147,9 @@ strong::after{
 }
 
 
+.book-discoveryCall-btn:hover{
+ border: 1px solid #152223;
+}
 
 
 
