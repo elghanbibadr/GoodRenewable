@@ -5,6 +5,7 @@ import { Gridx3 } from '../UI/Gridx3'
 
 const Callout = () => {
 
+
   return (
     <div className='my-40 p-4 md:grid md:grid-rows-[auto] items-center'>
       <div data-aos="zoom-in" className='md:text-center'>
@@ -14,7 +15,8 @@ const Callout = () => {
         </p>
       </div>
 
-      <BookCallBtn fill='white' className='py-4 lg:py-6  lg:px-16 md:mt-10 md:row-start-3 book-discoveryCall-btn md:mx-auto mb-20 bg-black hover:bg-paleWhite hover:text-black text-white' text='Book a Discovery Call' />
+      <BookCallBtn   fill='white' className='py-4 lg:py-6  lg:px-16 md:mt-10 md:row-start-3 book-discoveryCall-btn md:mx-auto mb-20 bg-black hover:bg-paleWhite hover:text-black text-white' text='Book a Discovery Call' />
+
 
       <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <Gridx3 >
@@ -23,6 +25,7 @@ const Callout = () => {
           })}
         </Gridx3>
       </div>
+
     </div>
   )
 }
