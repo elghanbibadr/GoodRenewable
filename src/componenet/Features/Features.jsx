@@ -217,15 +217,16 @@ const Features = () => {
 
       <Gridx2>
 
-        <div data-aos="fade-up-right" data-aos-offset="300" className='p-2 md:p-6 '>
-          <h3 className='mb-8'>Empowering Communities, Driving Consent</h3>
+        <div data-aos="fade-up-right" data-aos-offset="300" >
+          <h2 className='mb-8 lg:w-[130%]'>Empowering Communities, Driving Consent</h2>
           <p>
             We ask the community to set a vision for projects in their area. This helps turn local opposition into positive support, and fosters long-term backing for clean energy.
+            <br />
             <br />
             Local residents, businesses, and community leaders are involved right from the outset. Participants engage with the planning process and identify potential sites using our educational and mapping resources.
           </p>
         </div>
-        <div data-aos="fade-up-left"  className='justify-self-center   w-[80%]   md:w-[80%] lg:w-[70%] mx-auto'><img src={humanShaking} /></div>
+        <div data-aos="fade-up-left"  className='justify-self-end mx-auto lg:mx-1 w-[60%] mt-20  md:w-[80%] lg:w-[60%] '><img src={humanShaking} /></div>
 
       </Gridx2>
 

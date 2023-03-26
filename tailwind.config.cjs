@@ -12,7 +12,8 @@ module.exports = {
      "green-secondary": "#B8F36F",
      "paleBlack": "#5A6364",
      "paleWhite": "#F4FFE7",
-     "white": "#FFF"
+     "white": "#FFF",
+     "paleGreen":"#B8F36F"
     },
     screens: {
       'sm': '340px',
