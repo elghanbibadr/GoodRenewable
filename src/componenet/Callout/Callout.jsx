@@ -1,5 +1,5 @@
 import CalloutCard from './CalloutCard'
-import BookCallBtn from '../Nav/BookCallBtn'
+import BookCallBtn from '../UI/BookCallBtn'
 import { CalloutCardsData } from './CalloutCardsData'
 import { Gridx3 } from '../UI/Gridx3'
 

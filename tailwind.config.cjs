@@ -7,7 +7,7 @@ module.exports = {
     theme: {
     extend: {},
     colors: {
-     "black": "#152223e6",
+     "black": "#152223",
      "green": "#5ada2e",
      "green-secondary": "#B8F36F",
      "paleBlack": "#5A6364",
@@ -16,6 +16,7 @@ module.exports = {
     },
     screens: {
       'sm': '340px',
+      "sm2":"362px",
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',

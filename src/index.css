@@ -19,6 +19,8 @@ html{
 body{
     background-color: #F4FFE7;
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 @layer components {
@@ -57,9 +59,7 @@ body{
 
   }
 
-p{
-    font-family: 'Poppins', sans-serif;
-}
+
 
 img{
     cursor: pointer;
@@ -135,12 +135,13 @@ strong::after{
 /* buttons styling */
 
 
+
 .book-call-btn:hover path {
     fill: white;
   }
 
 .book-discoveryCall-btn:hover path {
-    fill: #152223e6;
+    fill: #152223;
 }
 
 
