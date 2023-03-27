@@ -2,13 +2,13 @@ import BookCallBtn from '../Nav/BookCallBtn'
 const Hero = () => {
 
   return (
-    <section className='md:flex section hero relative '>
+    <section className='md:flex px-4 section hero relative '>
    
 
       <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" className='mt-10 lg:mt-40 '>
         <h1 className=' md:w-[70%] lg:w-[80%]'>Harness the<strong className='strong-small ' > Power</strong>  of Community Engagement for <strong className='strong--taller'>Renewable</strong> Energy Projects</h1>
         <p className='text-black my-6 lg:my-10 w-4/5 lg:w-1/3'>Creating clean energy projects with <br/> community support at the centre.</p>
-        <BookCallBtn fill='white' className='py-4 lg:py-6  lg:px-16 md:mt-10  book-discoveryCall-btn  mb-20 bg-black hover:bg-paleWhite hover:text-black text-white' text='Book a Discovery Call' />
+        <BookCallBtn fill='white' className='py-4 w-full text-center sm:pl-[4.4rem] sm2:w-fit lg:py-6  lg:px-16 md:mt-10  book-discoveryCall-btn  mb-20  bg-black hover:bg-paleWhite hover:text-black text-white' text='Book a Discovery Call' />
       </div>
    
       <svg data-aos="fade-left"  className='mx-auto z-50 absolute mt-10 md:w-1/2 md:right-4 md:top-[45%] lg:top-[60%]' viewBox="0 0 753 483" fill="none" xmlns="http://www.w3.org/2000/svg">
