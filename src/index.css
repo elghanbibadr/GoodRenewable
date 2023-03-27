@@ -164,6 +164,3 @@ fill:#0A66C2;
 button,.linkedinIcon{
     transition: transform 0.5s linear;
 }
-button:hover,.linkedinIcon:hover{
-transform: scale(1.03);
-}
