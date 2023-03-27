@@ -1,6 +1,5 @@
 import CalloutCard from './CalloutCard'
 import BookCallBtn from '../UI/BookCallBtn'
-import BookDiscoveryCall from '../UI/BookDiscoveryCallBtn'
 import { CalloutCardsData } from './CalloutCardsData'
 import { Gridx3 } from '../UI/Gridx3'
 
@@ -18,7 +17,7 @@ const Callout = () => {
 
       <div  className=' w-full md:w-fit mx-auto md:mt-10   md:row-start-3'>
   
-            <BookCallBtn fill='white' className='py-5   w-full text-center sm:pl-[4.4rem] sm2:w-fit lg:py-6  lg:px-16 md:mt-10  book-discoveryCall-btn  mb-20  bg-black hover:bg-paleWhite hover:text-black text-white' text='Book a Discovery Call' />
+            <BookCallBtn fill='white' className='py-5   w-full text-center sm:pl-[4.4rem] sm2:w-fit lg:py-6  lg:px-16 md:mt-10  book-discoveryCall-btn  mb-20  bg-black hover:bg-[#FAFAFA] hover:text-black text-white' text='Book a Discovery Call' />
 
       </div>
 

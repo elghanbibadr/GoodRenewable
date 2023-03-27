@@ -142,14 +142,14 @@ strong::after{
     fill: white;
   }
 
-.book-discoveryCall-btn:hover path {
+ .book-discoveryCall-btn:hover path {
     fill: #152223;
 }
+ 
 
-
-.book-discoveryCall-btn:hover{
+  .book-discoveryCall-btn:hover{
  border: 1px solid #152223;
-}
+}  
 
 
 

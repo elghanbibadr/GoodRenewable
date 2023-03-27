@@ -16,14 +16,17 @@ import 'aos/dist/aos.css'; // Import the styles
 
 const App = () => {
   Aos.init({
-    offset:140,
+    offset:"100px",
+    once:false,
   });
 
   return (
 
     <>
       <Layout>
-        <Nav />
+        <Element name="nav">
+          <Nav />
+        </Element>
         <Hero />
         <Desc />
         <Features />
