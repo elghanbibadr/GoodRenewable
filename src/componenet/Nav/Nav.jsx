@@ -41,7 +41,7 @@ const Nav = () => {
     <header className={` bg-white   ${isSticky ? 'fixed md:px-10 inset-0 z-[999999999] shadow-lg h-fit bg-white' : 'md:bg-[#FAFAFA]'}`}>
       <nav className=' flex py-4 px-4 md:px-0  items-center justify-between flex-wrap relative md:flex-nowrap md:pt-6 '>
        <img className={`${isSticky ? "block" : "hidden"} md:hidden`} src={logo} alt='logo' /> 
-        <img className={`${!isSticky ? "block" : "hidden"} w-64 h-14 mb-1  md:block lg:h-[4.2rem] lg:w-[32rem] lg:relative lg:right-14`} src={GoodRenewable} alt="goodRenewable logo" />
+        <img className={`${!isSticky ? "block" : "hidden"} w-64 h-14 mb-1 lg:mb-3  md:block lg:h-[4.2rem] lg:w-[32rem] lg:relative lg:right-14`} src={GoodRenewable} alt="goodRenewable logo" />
          {isSticky && !menuCollapse &&   <BookCallBtn text="Book a Call" className="py-2 book-call-btn border-2   hover:bg-black hover:text-white  md:hidden" fill="#152223" /> }
         {!menuCollapse && <img onClick={hanldeMenuHamburgerClicked} className="md:hidden" src={menuBurger} alt="menu burger icon" />}
         {menuCollapse && <img onClick={hanldeCloseIconClicked} className='md:hidden px-3' src={closeIcon} alt="close icon" />}

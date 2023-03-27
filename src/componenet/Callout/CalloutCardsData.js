@@ -12,7 +12,8 @@ export const CalloutCardsData=[
         id:2,
         title:"Developers",
         text:"Learn about joining our Pioneer Group of developers benefiting from discounted subscriptions and early access to projects.",
-        img:developersImg
+        img:developersImg,
+        
     },
     {
         id:3,

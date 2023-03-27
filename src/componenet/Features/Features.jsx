@@ -215,7 +215,7 @@ const Features = () => {
       </Gridx2>
       <Map />
 
-      <Gridx2>
+      <Gridx2 className="px-4">
 
         <div data-aos="fade-up-right" data-aos-offset="300" >
           <h2 className='mb-8 lg:w-[130%]'>Empowering Communities, Driving Consent</h2>

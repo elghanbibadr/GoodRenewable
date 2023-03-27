@@ -10,9 +10,10 @@ import Faq from './componenet/Faq/Faq'
 import OurTeam from './componenet/OurTeam/OurTeam'
  import Footer from './componenet/Footer/Footer'
 import Layout from './componenet/UI/Layout'
+import Aos from 'aos'
 
 const App = () => {
-
+Aos.init();
   return (
 
     <>

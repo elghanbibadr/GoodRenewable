@@ -30,7 +30,7 @@ const Faq = () => {
 
       <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         {currentVisibleData.map(({ id, question, answer }) => {
-          return <div onClick={hanldeQuestionClicked} key={id} id={id} className='bg-white border-[1px] border-[#E8E8E8] cursor-pointer rounded-[16px] relative p-4 md:p-8 my-10' >
+          return <div onClick={hanldeQuestionClicked} key={id} id={id} className='bg-white border-[1px] border-[#E8E8E8] cursor-pointer rounded-[16px] relative p-6 md:p-8 my-10' >
             <h5 className='w-[80%] '>{question}</h5>
             <img className={`absolute top-12 right-10 ${activeIndex == id ? "rotate-180" : ""}`} src={arrow} alt='arrow logo' loading='lazy' />
             <p className={`${activeIndex == id ? "opacity-100 visible my-6" : "opacity-0 invisible h-0"} transition-opacity text-[1.6rem] duration-1000`}> {answer}</p>
