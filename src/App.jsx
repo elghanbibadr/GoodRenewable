@@ -11,9 +11,14 @@ import OurTeam from './componenet/OurTeam/OurTeam'
  import Footer from './componenet/Footer/Footer'
 import Layout from './componenet/UI/Layout'
 import Aos from 'aos'
+import 'aos/dist/aos.css'; // Import the styles
+
 
 const App = () => {
-Aos.init();
+  Aos.init({
+    offset:140,
+  });
+
   return (
 
     <>

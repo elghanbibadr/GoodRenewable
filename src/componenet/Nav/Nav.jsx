@@ -38,7 +38,7 @@ const Nav = () => {
   };
 
   return (
-    <header className={` bg-white   ${isSticky ? 'fixed md:px-10 inset-0 z-[999999999] shadow-lg h-fit bg-white' : 'md:bg-[#FAFAFA]'}`}>
+    <header className={` bg-white   ${isSticky ? 'fixed md:px-10 inset-0 z-[999999999999999999999999999] shadow-lg h-fit bg-white' : 'md:bg-[#FAFAFA]'}`}>
       <nav className=' flex py-4 px-4 md:px-0  items-center justify-between flex-wrap relative md:flex-nowrap md:pt-6 '>
        <img className={`${isSticky ? "block" : "hidden"} md:hidden`} src={logo} alt='logo' /> 
         <img className={`${!isSticky ? "block" : "hidden"} w-64 h-14 mb-1 lg:mb-3  md:block lg:h-[4.2rem] lg:w-[32rem] lg:relative lg:right-14`} src={GoodRenewable} alt="goodRenewable logo" />

@@ -1,5 +1,7 @@
 import BookCallBtn from '../Nav/BookCallBtn'
-const Hero = () => {
+import Aos from 'aos';
+const Hero = () =>  {
+  Aos.init();
 
   return (
     <section className='md:flex px-4 section hero relative '>
