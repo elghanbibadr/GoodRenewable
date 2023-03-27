@@ -26,6 +26,9 @@ const Nav = () => {
       };
     }, []);
   
+
+    const handleNavLinkClicked=()=>setMenuCollapse(false)
+
     const handleScroll = () => {
       if (window.scrollY > 100) {
         setIsSticky(true);
@@ -35,7 +38,7 @@ const Nav = () => {
     };
 
   return (
-    <header className={` ${isSticky ? 'fixed inset-0 z-[999999999] shadow-lg h-fit bg-white' : ''}`}>
+    <header className={` ${isSticky ? 'fixed pl-10 inset-0 z-[999999999] shadow-lg h-fit bg-white' : ''}`}>
     <nav className=' flex py-4  items-center justify-between flex-wrap relative md:flex-nowrap md:pt-6 '>
      <img className={`${!menuCollapse ? "block":"hidden"} md:hidden`} src={logo} alt='logo' /> 
    <img className={`${menuCollapse ? "block":"hidden"} w-64 h-14 md:block lg:h-[4.2rem] lg:w-[32rem] lg:relative lg:right-14`}  src={GoodRenewable} alt="goodRenewable logo"/>
@@ -44,7 +47,7 @@ const Nav = () => {
      { menuCollapse && <img onClick={hanldeCloseIconClicked} className='md:hidden px-3' src={closeIcon} alt="close icon" />}  
         <ul className={ ` ${!menuCollapse ? "hidden h-0":" h-screen"} mx-auto md:flex  transition-opacity duration-1000 md:mx-1 md:visible md:h-fit  md:opacity-100 flex flex-col items-center mt-20 md:mt-0  w-full md:w-auto    text-black navbar__list font-bold md:font-[400]  text-[3.2rem] md:flex-row  md:text-[1.6rem]`}>
           {listLinks.map((link,index) =>{
-                return <li className='lg:mx-[2rem]'  key={index}><Link to={link} offset={-100} smooth={true} duration={500}><a href='#' className=' lg:mr-[2rem]'>{link}</a></Link></li>
+                return <li className='lg:mx-[2rem]'  key={index}><Link to={link} offset={-70} smooth={true} duration={500}><a onClick={handleNavLinkClicked} href='#' className=' lg:mr-[2rem]'>{link}</a></Link></li>
             })}
         <li className='relative top-10 md:top-0   '><BookCallBtn className='book-call-btn border-2 lg:px-10  hover:bg-black hover:text-white lg:ml-20' text="Book a Call" fill="#152223" /> </li>
      </ul> 
