@@ -6,9 +6,9 @@ const Features = () => {
   return (
     <>
 
-      <Gridx2 className="mt-20 lg:mt-40  px-2 lg:gap-x-[1rem]" >
+      <Gridx2 className=" mt-[-10rem] sm2:mt-20 lg:mt-40  px-4 lg:gap-x-[1rem]" >
         <div data-aos="fade-left"  className='p-2 md:p-6 md:col-start-2 md:row-start-1'>
-          <h2 className='mb-8'>Creating Locally Supported Projects</h2>
+          <h2 className='mb-8 w-[90%] md:w-[100%]'>Creating Locally Supported Projects</h2>
           <p>
             GoodRenewable helps realise renewable energy projects with embedded community support. Our innovative approach engages local people from the outset and has been shown to increase community support for projects
             <br/>

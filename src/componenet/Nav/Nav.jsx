@@ -42,7 +42,7 @@ const Nav = () => {
       <nav className=' flex py-4 px-4 md:px-0  items-center justify-between flex-wrap relative md:flex-nowrap md:pt-6 '>
        <img className={`${isSticky ? "block" : "hidden"} md:hidden`} src={logo} alt='logo' /> 
         <img className={`${!isSticky ? "block" : "hidden"} w-64 h-14 mb-1  md:block lg:h-[4.2rem] lg:w-[32rem] lg:relative lg:right-14`} src={GoodRenewable} alt="goodRenewable logo" />
-         {isSticky &&  <BookCallBtn text="Book a Call" className="py-2 book-call-btn border-2   hover:bg-black hover:text-white  md:hidden" fill="#152223" /> }
+         {isSticky && !menuCollapse &&   <BookCallBtn text="Book a Call" className="py-2 book-call-btn border-2   hover:bg-black hover:text-white  md:hidden" fill="#152223" /> }
         {!menuCollapse && <img onClick={hanldeMenuHamburgerClicked} className="md:hidden" src={menuBurger} alt="menu burger icon" />}
         {menuCollapse && <img onClick={hanldeCloseIconClicked} className='md:hidden px-3' src={closeIcon} alt="close icon" />}
         <ul className={` ${!menuCollapse ? "hidden h-0" : " h-screen"} mx-auto md:flex  transition-opacity duration-1000 md:mx-1 md:visible md:h-fit  md:opacity-100 flex flex-col items-center mt-20 md:mt-0  w-full md:w-auto    text-black navbar__list font-bold md:font-[400]  text-[3.2rem] md:flex-row  md:text-[1.6rem]`}>
