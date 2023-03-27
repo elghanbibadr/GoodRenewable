@@ -16,7 +16,7 @@ import 'aos/dist/aos.css'; // Import the styles
 
 const App = () => {
   Aos.init({
-    offset:"100px",
+    offset:"180px",
     once:false,
   });
 
