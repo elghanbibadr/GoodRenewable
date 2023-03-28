@@ -28,7 +28,7 @@ const Faq = () => {
         <button id="3" className={`faqBtn ${currentVisibleData == landownersFaqData ? "bg-green text-white border-none" : " "}`}>Landowners </button>
       </div>
 
-      <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+      <div data-aos="zoom-in" >
         {currentVisibleData.map(({ id, question, answer }) => {
           return <div onClick={hanldeQuestionClicked} key={id} id={id} className='bg-white border-[1px] border-[#E8E8E8] cursor-pointer rounded-[16px] relative p-6 md:p-8 my-10' >
             <h5 className='w-[80%] '>{question}</h5>

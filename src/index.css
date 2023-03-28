@@ -63,9 +63,7 @@ body{
 
 
 
-img{
-    cursor: pointer;
-}
+
 
 h1,.navbar__list li,h2,h3,h4,h5,h6{
      font-family: 'Sora', sans-serif; 
@@ -155,7 +153,10 @@ strong::after{
   border: 1px solid #152223;
 }  
  
-
+header{
+    transition: position 1s ease-in-out; /* Add a transition effect for the position */
+ 
+}
 
 
 /* change the path color on the svg icon for the linkedin logo when user hover over it */

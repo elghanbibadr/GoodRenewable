@@ -9,7 +9,7 @@ const Callout = () => {
   return (
     <div className='my-40 px-4  md:grid md:grid-rows-auto  items-center'>
       <div data-aos="zoom-in" className='md:text-center'>
-        <h3 className=' lg:text-[4.9rem] ' >Get <strong className='strong--taller  '>involved early</strong></h3>
+        <h2 className=' lg:text-[4.9rem] ' >Get <strong className='strong--taller  '>involved early</strong></h2>
         <p className=' my-14  lg:mx-auto'>
           GoodRenewable is in the process of running workshops and consultations across the UK. <br/> We want to hear from communities, developers and landowners interested in being part <br/> of our pioneer projects. Book your discovery call below.
         </p>

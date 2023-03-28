@@ -19,7 +19,7 @@ const Hero = () =>  {
 </a> 
       </div>
    
-      <svg data-aos="fade-left"  className='mx-auto hero-image   z-50 absolute mt-10 md:w-1/2 md:right-4 md:top-[45%] lg:top-[60%]' viewBox="0 0 753 483" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg data-aos="fade-left"  className='mx-auto    z-50 absolute mt-10 md:w-1/2  md:right-4 md:top-[45%] lg:top-[60%]' viewBox="0 0 753 483" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_0_1)">
           <path d="M690.744 371H684.363L686.244 269.802H688.465L690.744 371Z" fill="#DBDBDB" />
 
@@ -160,7 +160,7 @@ const Hero = () =>  {
             <rect width="39.4313" height="123.51" fill="white" transform="translate(651.602 343.787)" />
           </clipPath>
         </defs>
-      </svg>
+      </svg> 
 
     </section>
   )
