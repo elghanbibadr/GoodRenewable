@@ -12,7 +12,7 @@ const Footer = () => {
         })}
       </ul>
       <h5 className='text-black cursor-pointer  underline my-10 font-[500]'><a href="mailto:hello@goodrenewable.io">hello@goodrenewable.io</a></h5>
-      <span className='text-[1.4rem] font-[600] mb-10'>© All rights reserved. 2023</span>
+      <span className='text-[1.4rem] font-[400] mb-10'>© All rights reserved. 2023</span>
     </footer>
   )
 }

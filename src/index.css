@@ -147,10 +147,14 @@ strong::after{
 }
  
 
-  .book-discoveryCall-btn:hover{
+   .book-discoveryCall-btn:hover{
  border: 1px solid #152223;
 }  
-
+ 
+   .book-discoveryCall-btn{
+  border: 1px solid #152223;
+}  
+ 
 
 
 
@@ -164,3 +168,5 @@ fill:#0A66C2;
 button,.linkedinIcon{
     transition: transform 0.5s linear;
 }
+
+
