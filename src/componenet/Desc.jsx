@@ -8,18 +8,18 @@ const Desc = () => {
 
   return (
     <>
-      <div className='relative ' >
-        <img className="absolute top-[14rem] md:top-[12rem]" src={wave3} alt="wave 3 svg " loading="lazy" />
-        <img className="relative top-60" src={wave2} alt="wave 2 svg" loading="lazy" />
+      <div className='relative  ' >
+        <img className="absolute top-[14rem] md:top-[13rem]" src={wave3} alt="wave 3 svg " loading="lazy" />
+        <img className="relative top-64" src={wave2} alt="wave 2 svg" loading="lazy" />
       </div>
-      <div className='bg-green-secondary px-4  pb-20 desc md:grid md:p-10 items-center md:grid-cols-2 lg:gap-x-[4rem] pt-[50%] mt-60 '>
+       <div className='bg-green-secondary px-4  pb-20 desc md:grid md:p-10 items-center md:grid-cols-2 lg:gap-x-[4rem] pt-[50%] mt-60 '>
         <div data-aos="fade-up-right" className='relative bottom-12  lg:pl-[2rem]'>
           <h2 className='mb-14 w-[80%] md:w-full  '>Unlocking the Power of Local People</h2>
           <p className='text-black lg:w-[90%]  '>Over 70% of people support renewable energy development, yet nearly half of all wind and solar projects fail due to community opposition. It’s time to change that.</p>
           <p className='text-black my-6  lg:w-[90%]'>We believe in engaging local people by making their voices heard on how clean energy projects are developed.</p>
         </div>
-        <div data-aos="fade-left">
-          <svg className='h-1/2 w-[70%] z-[999999999] lg:w-[70%] mx-auto lg:relative lg:top-20' viewBox="0 0 424 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <div data-aos="zoom-in"  >
+          <svg className='h-1/2  z-[99999999] lg:w-[70%] mx-auto lg:relative lg:top-20' viewBox="0 0 424 360" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M225.269 289.84C271.912 286.463 319.007 277.947 364.886 281.685C409.052 285.283 423.013 296.857 423.695 306.006C424.298 314.075 376.375 319.214 368.278 327.135C358.135 337.059 408.635 349.424 371.865 356.716C337.133 363.603 273.798 357.894 225.269 355.494C187.078 353.605 152.999 349.851 125.206 344.517C100.802 339.832 96.0593 333.066 78.6778 327.357C54.4585 319.403 -15.5238 313.011 3.5621 304.565C23.4512 295.763 98.581 300.682 146.085 297.527C174.76 295.623 196.882 291.896 225.269 289.84Z" fill="#99DA49" />
             <rect x="312.199" y="36.4512" width="15.7942" height="11.4867" rx="1" transform="rotate(90.6168 312.199 36.4512)" fill="#FABB68" />
             <path d="M311.199 36.4404L301.713 36.3383C301.161 36.3323 300.708 36.7752 300.702 37.3275L300.685 38.9499C300.682 39.2704 300.831 39.5746 301.093 39.7599C305.006 42.5337 307.605 42.4779 311.713 39.9113C311.997 39.7341 312.167 39.4221 312.171 39.0877L312.188 37.4511C312.194 36.8989 311.752 36.4464 311.199 36.4404Z" fill="#2A193D" />
@@ -62,9 +62,9 @@ const Desc = () => {
             <path d="M161.219 87.9782C165.1 80.2154 173.187 75.3636 176.744 73.9081C177.068 73.5847 178.491 73.1318 181.596 73.9081C184.701 74.6844 212.001 103.342 225.262 117.574C221.866 120.162 214.976 125.434 214.588 125.822C214.103 126.307 204.399 115.633 201.974 113.693C199.548 111.752 199.063 135.04 198.092 137.466C197.122 139.892 168.982 154.932 164.615 155.418C160.249 155.903 158.793 153.477 158.308 152.507C157.823 151.536 157.823 151.051 158.308 148.625C158.793 146.199 159.763 148.14 160.734 148.14C161.704 148.14 162.674 148.14 163.356 147.655C164.037 147.17 163.16 147.17 163.16 143.773C163.16 140.377 165.1 140.377 167.041 136.981C168.982 133.585 165.1 132.129 163.16 125.822C161.607 120.776 162.513 126.307 163.16 129.703L148.119 128.248C150.868 118.059 157.337 95.741 161.219 87.9782Z" fill="#008D36" />
             <path d="M198.092 137.466C197.122 139.892 168.982 154.932 164.615 155.417C161.867 155.723 160.271 154.875 159.346 153.962C159.808 154.151 161.456 154.254 162.756 153.962C164.494 153.571 166.369 153.446 166.718 151.698C167.103 149.771 162.872 150.084 163.16 148.14C163.301 147.186 163.877 146.811 164.454 146.038C165.388 144.785 166.398 144.496 167.284 143.208C168.238 141.82 169.423 140.87 168.982 139.245C168.677 138.121 166.659 138.081 167.041 136.981C167.329 136.152 168.229 136.3 168.982 135.849C172.649 133.653 175.42 133.081 178.039 129.703C180.259 126.839 181.346 124.748 181.596 121.132C181.751 118.909 181.166 117.681 180.869 115.472C180.452 112.374 179.341 110.648 179.737 107.547C180.065 104.981 180.168 103.147 182.001 101.321C183.543 99.7842 184.928 99.2664 187.095 99.0567C189.878 98.7873 193.888 101.321 193.888 101.321C193.888 101.321 198.092 105.283 204.642 108.113C209.882 110.377 213.456 120.862 214.588 125.822C214.103 126.307 204.4 115.633 201.974 113.692C199.548 111.752 199.063 135.04 198.092 137.466Z" fill="#006D29" />
           </svg>
-        </div>
-      </div>
-       <img className="relative hidden sm2:block -z-[20]  lg:bottom-40" src={wave} alt="wave  svg " loading="lazy" /> 
+        </div>  
+      </div> 
+       <img className="relative hidden sm2:block md:bottom-20 -z-[20]  lg:bottom-40" src={wave} alt="wave  svg " loading="lazy" /> 
            <img className="w-full sm2:hidden relative bottom-[10rem] -z-20 " src={bottomWaveForMobile} alt="wave  svg " loading="lazy" />  
             <img className="w-full sm2:hidden   -z-40  relative  bottom-[22rem]" src={bottomWaveForMobile2} alt="wave  svg " loading="lazy" />
          

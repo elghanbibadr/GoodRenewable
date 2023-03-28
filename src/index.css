@@ -8,7 +8,9 @@
     box-sizing: border-box;
 }
 
-
+header{
+    outline: 1px solid red;
+}
 
 html{
     font-size: 62.5%;
@@ -18,7 +20,7 @@ html{
 
 body{
    background-color:  #FAFAFA; 
-    overflow-x: hidden;
+     overflow-x: hidden !important; 
     font-family: 'Poppins', sans-serif;
 
 }

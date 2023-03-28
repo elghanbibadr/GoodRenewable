@@ -23,14 +23,14 @@ const App = () => {
   return (
 
     <>
-      <Layout>
         <Element name="nav">
-          <Nav />
-        </Element>
-        <Hero />
-        <Desc />
-        <Features />
-        <Element name="Our Process">
+         <Nav />
+        </Element> 
+       {/* <Layout>  */}
+         <Hero /> 
+         <Desc />
+         {/* <Features />
+      <Element name="Our Process"> 
         <OurProcess />
         </Element>
         <Element name='Get Involved'>
@@ -40,10 +40,10 @@ const App = () => {
           <Faq />
         </Element>
         <Element name="Our Team">
-          <OurTeam />
-        </Element>
-      </Layout>
-        <Footer />
+          <OurTeam />   */}
+       {/* </Element>   */}
+      {/* </Layout> */}
+        {/* <Footer /> */}
     </>
   )
 }
