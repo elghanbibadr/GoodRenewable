@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-header{
+.team{
     outline: 1px solid red;
 }
 
@@ -20,7 +20,8 @@ html{
 
 body{
    background-color:  #FAFAFA; 
-     overflow-x: hidden !important; 
+     /* overflow-x: hidden !important;  */
+     overflow-wrap: break-word;
     font-family: 'Poppins', sans-serif;
 
 }

@@ -6,9 +6,9 @@ const Features = () => {
   return (
     <>
 
-      <Gridx2 className=" mt-[-10rem] sm2:mt-20 lg:mt-40  px-4 lg:gap-x-[1rem]" >
-        <div data-aos="fade-left"  className='p-2 md:p-6 md:col-start-2 md:row-start-1'>
-          <h2 className='mb-8 w-[90%] md:w-[100%]'>Creating Locally Supported Projects</h2>
+       <Gridx2 className=" mt-[-10rem] sm2:mt-20  lg:mt-40  px-4 lg:gap-x-[1rem]" >
+        <div data-aos="zoom-in"  className='p-2 md:p-6 md:col-start-2 md:row-start-1'>
+          <h2 className='mb-8 max-w-[90%] md:max-w-[100%]'>Creating Locally Supported Projects</h2>
           <p>
             GoodRenewable helps realise renewable energy projects with embedded community support. Our innovative approach engages local people from the outset and has been shown to increase community support for projects
             <br/>
@@ -17,7 +17,7 @@ const Features = () => {
           </p>
         </div>
         <div data-aos="fade-up-right" >
-          <svg className='justify-self-center  max-w-[400px]   md:w-[56%] mx-auto' viewBox="0 0 329 229" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className='justify-self-center self-center  max-w-[400px]   md:w-[56%] mx-auto' viewBox="0 0 329 229" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M173.267 95.8871C112.543 95.9396 90.5373 90.4373 51.2923 96.853C34.5288 99.5933 33.3311 101.448 33.2509 102.256C32.5443 109.184 105.627 114.761 104.63 119.047C103.597 123.513 23.5286 120.643 21.088 127.154C18.7877 133.298 89.6202 137.152 100.706 156.298C110.413 173.067 64.4976 184.654 72.075 197.794C87.0994 223.849 295.437 226.543 306.613 206.867C312.552 196.412 267.243 171.891 217.584 165.756C202.925 163.945 184.733 163.346 182.679 159.001C179.552 152.391 218.356 146.836 217.193 137.189C216.161 128.632 184.738 125.691 177.973 111.906C176.259 108.419 177.206 106.429 178.364 105.151C183.836 99.1212 203.376 98.6922 203.111 97.3529C202.81 95.8346 177.652 95.884 173.262 95.8871H173.267Z" fill="#B8F36F" />
             <path d="M174.526 87.0887C104.909 87.1488 79.6816 80.8455 34.6899 88.1952C15.4718 91.3344 14.0987 93.4591 14.0067 94.3853C13.1966 102.322 96.9808 108.71 95.8375 113.62C94.654 118.736 2.86079 115.448 0.0628152 122.907C-2.57429 129.946 78.6302 134.362 91.3389 156.294C102.468 175.504 49.8289 188.779 58.5158 203.832C75.7403 233.68 314.585 236.766 327.397 214.226C334.206 202.248 282.262 174.157 225.332 167.129C208.526 165.054 187.671 164.368 185.315 159.391C181.73 151.818 226.216 145.455 224.883 134.404C223.7 124.601 187.677 121.232 179.92 105.44C177.956 101.445 179.041 99.1649 180.369 97.7014C186.643 90.7936 209.044 90.3022 208.739 88.7679C208.394 87.0286 179.553 87.0851 174.52 87.0887H174.526Z" fill="#B8F36F" />
             <path d="M225.003 134.296C223.865 124.998 190.565 121.56 181.063 107.484C177.297 107.822 174.4 108.147 170.02 108.681C161.064 109.773 149.694 108.133 137.001 103.735C124.309 99.3371 125.033 102.217 112.898 101.473C100.769 100.73 93.5375 102.217 87.6914 102.217C81.8453 102.217 68.348 105.403 62.9503 106.115C62.4272 106.185 61.4959 106.206 60.2428 106.182C79.086 109.023 96.4117 111.553 95.8886 113.773C94.7044 118.824 2.86232 115.578 0.0628487 122.942C-2.57566 129.892 78.6721 134.251 91.3876 155.905C91.4048 155.933 91.4163 155.958 91.4336 155.985C123.343 155.357 156.919 154.652 189.507 153.881C200.003 148.324 226.032 142.673 225.003 134.289V134.296Z" fill="#99DA49" />
@@ -212,10 +212,10 @@ const Features = () => {
             </defs>
           </svg>
         </div>
-      </Gridx2>
-      <Map />
+      </Gridx2>  
+       <Map />
 
-      <Gridx2 className="px-4">
+     <Gridx2 className="px-4">
 
         <div data-aos="fade-up-right" data-aos-offset="300" >
           <h2 className='mb-8 lg:w-[130%]'>Empowering Communities, Driving Consent</h2>
@@ -226,9 +226,9 @@ const Features = () => {
             Local residents, businesses, and community leaders are involved right from the outset. Participants engage with the planning process and identify potential sites using our educational and mapping resources.
           </p>
         </div>
-        <div data-aos="fade-up-left"  className='justify-self-end mx-auto lg:mx-1 w-[60%] mt-20  md:w-[80%] lg:w-[60%] '><img src={humanShaking} /></div>
+        <div data-aos="fade-up-right"  className='justify-self-end mx-auto lg:mx-1 w-[60%] mt-20  md:w-[80%] lg:w-[60%] '><img src={humanShaking} /></div>
 
-      </Gridx2>
+      </Gridx2> 
 
     </>
   )

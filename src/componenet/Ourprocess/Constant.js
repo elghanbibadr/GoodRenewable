@@ -16,7 +16,7 @@ export const ourProcessData=[
         text1:"We run a community-wide confirmation process to evidence support for the project.",
         text2:"We engage landowners to offer suitable sites that can be put forward for development",
         img:securingTheProject,
-        animation:"zoom-in-left"
+        animation:"zoom-in-right"
     },
     {
         id:3,

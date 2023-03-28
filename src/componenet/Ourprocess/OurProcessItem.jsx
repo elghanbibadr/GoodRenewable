@@ -14,7 +14,7 @@ const OurProcessItem = (props) => {
         <p className='mb-8 '>{props.text1}</p>
         <p>{props.text2}</p>
       </div>
-      <img data-aos={`${props.id == 2 ? "fade-right" : "fade-left"}`} className={`${props.id == 2 ? "col-start-1 row-start-2  " : ""}  w-[70%]  mx-auto mt-12 mb-12 lg:w-[50%]`} src={props.img} loading="lazy" alt={`${props.title} svg logo presentation`} />
+      <img data-aos={`${props.id == 2 ? "fade-right" : "fade-right"}`} className={`${props.id == 2 ? "col-start-1 row-start-2  " : ""}  w-[70%]  mx-auto mt-12 mb-12 lg:w-[50%]`} src={props.img} loading="lazy" alt={`${props.title} svg logo presentation`} />
     </Gridx2>
   )
 }

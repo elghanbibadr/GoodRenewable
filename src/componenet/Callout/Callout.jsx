@@ -22,7 +22,7 @@ const Callout = () => {
       </div>
 
       <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-        <Gridx3 >
+        <Gridx3  >
           {CalloutCardsData.map(({ id, title, text, img }) => {
             return <CalloutCard key={id} id={id} title={title} text={text} img={img} />;
           })}
