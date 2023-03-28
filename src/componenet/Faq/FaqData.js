@@ -36,12 +36,7 @@ export const  developersFaqData=[
 
     },
    
-    {
-        id:7,
-        question:"Who is behind GoodRenewable?",
-        answer:"We are a group of UK experts with decades of experience in renewable energy, community  engagement and workshop facilitation",
-
-    },
+ 
    
   
 ]
