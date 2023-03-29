@@ -15,7 +15,6 @@ const Nav = (props) => {
   const hanldeCloseIconClicked = () => setMenuCollapse(false)
 
 
-  // steacky menu
   const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
