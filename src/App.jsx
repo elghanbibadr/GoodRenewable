@@ -11,18 +11,18 @@ import OurTeam from './componenet/OurTeam/OurTeam'
  import Footer from './componenet/Footer/Footer'
 import Layout from './componenet/UI/Layout'
 import Callendly from './componenet/callendy/Callendly'
-import Aos from 'aos'
-import 'aos/dist/aos.css'; // Import the styles
+// import Aos from 'aos'
+// import 'aos/dist/aos.css'; // Import the styles
 
 
 const App = () => {
   const [bookingPopUpOpen,setBookingPopUpOpen]=useState(false)
 
 
-  Aos.init({
-    offset:"180px",
-    once:false,
-  });
+  // Aos.init({
+  //   offset:"180px",
+  //   once:false,
+  // });
 
   return (
 

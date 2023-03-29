@@ -13,12 +13,13 @@ const Desc = () => {
         <img className="relative top-64" src={wave2} alt="wave 2 svg" loading="lazy" />
       </div>
        <div className='bg-green-secondary px-6  pb-20 desc md:grid md:p-10 items-center md:grid-cols-2 lg:gap-x-[4rem] pt-[50%] mt-60 '>
-        <div data-aos="fade-up-right" className='relative bottom-12  lg:pl-[2rem]'>
+        <div        data-aos="fade-up-right"
+  className='relative bottom-12  lg:pl-[2rem]'>
           <h2 className='mb-14 w-[80%] md:w-full  '>Unlocking the Power of Local People</h2>
           <p className='text-black lg:w-[90%]  '>Over 70% of people support renewable energy development, yet nearly half of all wind and solar projects fail due to community opposition. It’s time to change that.</p>
           <p className='text-black my-6  lg:w-[90%]'>We believe in engaging local people by making their voices heard on how clean energy projects are developed.</p>
         </div>
-         <div data-aos="zoom-in"  >
+         <div    data-aos="zoom-in"  >
           <svg className='h-1/2  z-[99999999] lg:w-[70%] mx-auto lg:relative lg:top-20' viewBox="0 0 424 360" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M225.269 289.84C271.912 286.463 319.007 277.947 364.886 281.685C409.052 285.283 423.013 296.857 423.695 306.006C424.298 314.075 376.375 319.214 368.278 327.135C358.135 337.059 408.635 349.424 371.865 356.716C337.133 363.603 273.798 357.894 225.269 355.494C187.078 353.605 152.999 349.851 125.206 344.517C100.802 339.832 96.0593 333.066 78.6778 327.357C54.4585 319.403 -15.5238 313.011 3.5621 304.565C23.4512 295.763 98.581 300.682 146.085 297.527C174.76 295.623 196.882 291.896 225.269 289.84Z" fill="#99DA49" />
             <rect x="312.199" y="36.4512" width="15.7942" height="11.4867" rx="1" transform="rotate(90.6168 312.199 36.4512)" fill="#FABB68" />

@@ -9,8 +9,8 @@ export const TeamData=[
         role:"Alexi is a renewable energy  consultant with a background in education, training, and leading community workshops.",
         img:alexiImage,
         href:"https://www.linkedin.com/in/aleximakris/",
-        // animation:'zoom-in'
-         animation:"fade-right"
+        animation:'zoom-in'
+        //  animation:"fade-right"
 
     },
     {
