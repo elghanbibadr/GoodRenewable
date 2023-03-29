@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Element } from 'react-scroll'
 import Nav from './componenet/Nav/Nav'
 import Hero from './componenet/Hero/Hero'
@@ -10,11 +10,15 @@ import Faq from './componenet/Faq/Faq'
 import OurTeam from './componenet/OurTeam/OurTeam'
  import Footer from './componenet/Footer/Footer'
 import Layout from './componenet/UI/Layout'
+import Callendly from './componenet/callendy/Callendly'
 import Aos from 'aos'
 import 'aos/dist/aos.css'; // Import the styles
 
 
 const App = () => {
+  const [bookingPopUpOpen,setBookingPopUpOpen]=useState(false)
+
+
   Aos.init({
     offset:"180px",
     once:false,
@@ -24,10 +28,11 @@ const App = () => {
 
     <>
          <Element name="nav">
-         <Nav />
+         <Nav bookingPopUpOpen={bookingPopUpOpen} setBookingPopUpOpen={setBookingPopUpOpen} />
+         <Callendly isOpen={bookingPopUpOpen} setIsOpen={setBookingPopUpOpen} />
         </Element> 
         <Layout>  
-       <Hero />  
+       <Hero bookingPopUpOpen={bookingPopUpOpen} setBookingPopUpOpen={setBookingPopUpOpen} />  
        </Layout>
          <Desc />  
          <Layout>
