@@ -74,10 +74,24 @@ strong{
     color: #5ada2e;
 }
 
- .strong-small::after{
-    content: url("/src/assets/shortLine.svg"); 
+
+.power-underline::after{
+    content: url("/src/assets/Vector56.svg"); 
+    top: 10px;
+    left: 1px;
+}
+
+ /* .strong-small::after{
+    content: url("/src/assets/Vector56.svg"); 
     top: 14px;
     left: 10px;
+} */
+
+.strong-small::after{
+    content: url("/src/assets/Vector56.svg"); 
+    top: 12px;
+    left: 8px;
+
 }
 
 .strong-ourTeam::after{
@@ -102,6 +116,9 @@ strong{
         top: 18px;
         left: 16px;
     }
+    .power-underline::after{
+        display: none;
+    }
 }
 
 
@@ -117,13 +134,35 @@ strong::after{
 
 }
 
+
+
+  
+
+
+
+.getInvolved-underline::after{
+    content: url("/src/assets/getInvolvedMobileUnderline.svg");
+    top: 12px;
+    left: 0px;
+
+}
+
+
  @media (min-width: 1110px){
     .strong--taller::after{
         content: url("/src/assets/renewableUnderLineDesktop.svg");
         top: 25px;
         left: 0;
     }
+  
+    .getInvolved-underline::after{
+        content: url("/src/assets/getinvolvedunderline.svg");
+        top: 16px;
+        left: 0;
+    }
+  
 } 
+
 
 
 

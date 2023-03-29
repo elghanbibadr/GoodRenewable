@@ -7,7 +7,7 @@ const Hero = (props) =>  {
    
 
       <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" className='mt-10 lg:mt-40 '>
-        <h1 className=' md:w-[70%] md:mt-20 lg:w-[80%]'>Harness the<strong className='strong-small ' > Power</strong>  of Community Engagement for <strong className='strong--taller'>Renewable</strong> Energy Projects</h1>
+        <h1 className=' md:w-[70%] md:mt-20 lg:w-[80%]'>Harness the<strong className='power-underline' > Power</strong> <br className="md:hidden"/>   of Community Engagement for <strong className='strong--taller'>Renewable</strong> Energy Projects</h1>
         <p className='text-black my-6 lg:my-10  lg:w-1/3'>Creating clean energy projects  with   <br/>community support at the centre.</p>
   
      <button onClick={handleBookingBtnClicked} className={` flex  rounded-[8px] px-6  items-center py-5   w-full text-center sm:pl-[4.4rem] sm2:w-fit lg:py-6   lg:px-16 md:mt-10  book-discoveryCall-btn  mb-20  bg-black text-white hover:bg-[#FAFAFA] hover:text-black text-white' `}>
