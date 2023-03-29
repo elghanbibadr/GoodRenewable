@@ -27,15 +27,15 @@ const App = () => {
   return (
 
     <>
-         <Element name="nav">
+         {/* <Element name="nav">
          <Nav bookingPopUpOpen={bookingPopUpOpen} setBookingPopUpOpen={setBookingPopUpOpen} />
          <Callendly isOpen={bookingPopUpOpen} setIsOpen={setBookingPopUpOpen} />
-        </Element> 
-        <Layout>  
-       <Hero bookingPopUpOpen={bookingPopUpOpen} setBookingPopUpOpen={setBookingPopUpOpen} />  
-       </Layout>
-         <Desc />  
-         <Layout>
+        </Element>  */}
+        {/* <Layout>  
+       {/* <Hero bookingPopUpOpen={bookingPopUpOpen} setBookingPopUpOpen={setBookingPopUpOpen} />   */}
+       {/* </Layout> */}
+         {/* <Desc />   */}
+         <Layout>  
          <Features />  
        <Element name="Our Process"> 
         <OurProcess />
