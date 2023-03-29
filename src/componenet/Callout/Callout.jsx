@@ -7,7 +7,7 @@ const Callout = () => {
 
 
   return (
-    <div className='my-40 px-4  md:grid md:grid-rows-auto  items-center'>
+    <div className='my-40  md:grid md:grid-rows-auto   items-center'>
       <div data-aos="zoom-in" className='md:text-center'>
         <h2 className=' lg:text-[4.9rem] ' >Get <strong className='strong--taller  '>involved early</strong></h2>
         <p className=' my-14  lg:mx-auto'>

@@ -9,10 +9,10 @@ const Desc = () => {
   return (
     <>
       <div className='relative  ' >
-        <img className="absolute top-[14rem] md:top-[13rem]" src={wave3} alt="wave 3 svg " loading="lazy" />
+        <img className="absolute top-[15rem] md:top-[13rem]" src={wave3} alt="wave 3 svg " loading="lazy" />
         <img className="relative top-64" src={wave2} alt="wave 2 svg" loading="lazy" />
       </div>
-       <div className='bg-green-secondary px-4  pb-20 desc md:grid md:p-10 items-center md:grid-cols-2 lg:gap-x-[4rem] pt-[50%] mt-60 '>
+       <div className='bg-green-secondary px-6  pb-20 desc md:grid md:p-10 items-center md:grid-cols-2 lg:gap-x-[4rem] pt-[50%] mt-60 '>
         <div data-aos="fade-up-right" className='relative bottom-12  lg:pl-[2rem]'>
           <h2 className='mb-14 w-[80%] md:w-full  '>Unlocking the Power of Local People</h2>
           <p className='text-black lg:w-[90%]  '>Over 70% of people support renewable energy development, yet nearly half of all wind and solar projects fail due to community opposition. It’s time to change that.</p>
@@ -64,7 +64,7 @@ const Desc = () => {
           </svg>
         </div>  
       </div> 
-       <img className="relative hidden sm2:block md:bottom-20 -z-[20]  lg:bottom-40" src={wave} alt="wave  svg " loading="lazy" /> 
+       <img className="relative bottom-1 hidden sm2:block md:bottom-20 -z-[20]  lg:bottom-40" src={wave} alt="wave  svg " loading="lazy" /> 
            <img className="w-full sm2:hidden relative bottom-[10rem] -z-20 " src={bottomWaveForMobile} alt="wave  svg " loading="lazy" />  
             <img className="w-full sm2:hidden   -z-40  relative  bottom-[22rem]" src={bottomWaveForMobile2} alt="wave  svg " loading="lazy" />
          

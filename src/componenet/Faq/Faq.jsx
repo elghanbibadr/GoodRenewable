@@ -20,7 +20,7 @@ const Faq = () => {
   }
 
   return (
-    <div className='lg:w-[60%]  md:w-[70%]  sm:w-[90%] mt-20 mx-auto'>
+    <div className='lg:w-[60%]  md:w-[70%]   mt-20 mx-auto'>
       <h2 className='text-center lg:mb-20'>FAQ</h2>
       <div onClick={handleBtnClicked} className='flex mt-10 items-center md:justify-center md:gap-x-[1rem]   flex-col md:flex-row'>
         <button id="1" className={` faqBtn ${currentVisibleData == communitiesFaqData ? "bg-green text-white border-none" : ""} `}>Communities </button>

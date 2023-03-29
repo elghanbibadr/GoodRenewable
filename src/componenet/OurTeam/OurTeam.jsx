@@ -6,13 +6,13 @@ import { Gridx3 } from '../UI/Gridx3'
 const OurTeam = () => {
   
   return (
-    <div className='mt-40  lg:my-40 mb-40 px-6  mx-auto '>
+    <div className='mt-40  lg:my-40 mb-40    '>
     <h2 className='text-center mb-14'>Our <strong className="strong-ourTeam ">Team</strong></h2>
     <Gridx3 className='lg:w-[80%] lg:mx-auto '>
     {TeamData.map(({id,name,role,img,href,animation})=>{
         return <Card animation={animation} key={id} className="text-center mb-10  rounded-[16px] max-w-[348px] mx-auto flex flex-col items-center justify-between   md:h-[52rem] p-4 my-4">
-           <img className='max-w-[40%] md:w-1/2  mt-6  mx-auto' src={img} alt='team membre image' />
-            <h5 className='mt-6 mb-4'>{name}</h5>
+           <img className='max-w-[50%] md:w-1/2  mt-6  mx-auto' src={img} alt='team membre image' />
+            <h5>{name}</h5>
             <p className='px-8  lg:text-[1.7rem] md:relative md:bottom-5'>{role}</p>
             <a  href={href} target="_blank">
             <svg className='mx-auto linkedinIcon w-[46px] my-8' viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">

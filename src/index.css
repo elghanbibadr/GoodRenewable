@@ -8,10 +8,6 @@
     box-sizing: border-box;
 }
 
-.team{
-    outline: 1px solid red;
-}
-
 html{
     font-size: 62.5%;
 }
@@ -20,8 +16,6 @@ html{
 
 body{
    background-color:  #FAFAFA; 
-     /* overflow-x: hidden !important;  */
-     overflow-wrap: break-word;
     font-family: 'Poppins', sans-serif;
 
 }

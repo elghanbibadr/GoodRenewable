@@ -23,12 +23,14 @@ const App = () => {
   return (
 
     <>
-        <Layout>  
          <Element name="nav">
          <Nav />
         </Element> 
+        <Layout>  
        <Hero />  
+       </Layout>
          <Desc />  
+         <Layout>
          <Features />  
        <Element name="Our Process"> 
         <OurProcess />

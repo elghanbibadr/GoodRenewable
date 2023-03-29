@@ -1,7 +1,7 @@
 const Hero = () =>  {
 
   return (
-    <section className='md:flex px-4 section hero relative '>
+    <section className='md:flex   hero relative '>
    
 
       <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" className='mt-10 lg:mt-40 '>
@@ -19,7 +19,7 @@ const Hero = () =>  {
 </a>  
       </div>
    
-           <svg  className='   z-50 absolute mt-10 md:w-1/2   md:right-40 md:top-[65%] lg:top-[60%]' viewBox="0 0 753 483" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+           <svg  className='   z-50 absolute mt-10 md:w-[60%]   md:right-10 md:top-[64%] lg:top-[60%]' viewBox="0 0 753 483" fill="none" xmlns="http://www.w3.org/2000/svg"> 
         <g clip-path="url(#clip0_0_1)">
           <path d="M690.744 371H684.363L686.244 269.802H688.465L690.744 371Z" fill="#DBDBDB" />
 
