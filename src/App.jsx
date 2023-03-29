@@ -41,7 +41,7 @@ const App = () => {
         <OurProcess />
         </Element>
         <Element name='Get Involved'>
-          <Callout />
+          <Callout setBookingPopUpOpen={setBookingPopUpOpen} />
         </Element>
          <Element name="FAQ">
           <Faq />
