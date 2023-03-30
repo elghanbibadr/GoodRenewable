@@ -37,12 +37,12 @@ const App = () => {
 
          <Desc />   */}
         {/* <Layout>  
+        */} 
+         <Layout>
          <Features />   
         <Element name="Our Process"> 
         <OurProcess /> 
         </Element>
-      */} 
-         <Layout>
        <Element name='Get Involved'>
            <Callout setBookingPopUpOpen={setBookingPopUpOpen} />
          </Element>
