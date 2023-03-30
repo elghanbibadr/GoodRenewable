@@ -213,7 +213,7 @@ const Features = () => {
           </svg>
         </div>
       </Gridx2>  
-       <Map />
+       {/* <Map /> */}
 
      <Gridx2 >
         <div  data-aos="fade-up-right" data-aos-offset="300" >

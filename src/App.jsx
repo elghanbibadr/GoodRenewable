@@ -34,10 +34,9 @@ const App = () => {
         {/* <Layout>
          <Hero bookingPopUpOpen={bookingPopUpOpen} setBookingPopUpOpen={setBookingPopUpOpen} />  
         </Layout>
-
-         <Desc />   */}
-        {/* <Layout>  
         */} 
+
+         <Desc /> 
          <Layout>
          <Features />   
         <Element name="Our Process"> 
