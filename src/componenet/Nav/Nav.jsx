@@ -37,7 +37,7 @@ const Nav = (props) => {
   };
 
   return (
-    <header className={` bg-white px-6     ${isSticky ? '  fixed lg:px-10 inset-0 z-10 shadow-lg max-h-fit bg-white' : 'md:bg-[#FAFAFA]'}`}>
+    <header className={` bg-white px-6    ${isSticky ? 'fixed inset-0  lg:px-10   z-10 shadow-lg max-h-fit bg-white' : 'md:bg-[#FAFAFA]'}`}>
       <nav className=' flex py-4  md:px-0  items-center justify-between flex-wrap  relative md:flex-nowrap md:pt-6 '>
        <Link className={`${isSticky ? "block" : "hidden"} md:hidden`} to="nav" offset={-80} smooth={true} duration={500}><img className='cursor-pointer'  src={logo} alt='logo' /> </Link>
        <Link className={`${!isSticky ? "block" : "hidden"} md:block `} to="nav" offset={-80} smooth={true} duration={500}><img className='lg:h-[4.2rem] cursor-pointer w-64 h-14  mb-1 lg:mb-3  md:block  lg:w-[32rem] lg:relative lg:right-14'  src={GoodRenewable} alt="goodRenewable logo" /></Link>

@@ -19,7 +19,7 @@ const Hero = (props) =>  {
 </button>  
       </div>
    
-           <svg  className='   z-[6] absolute mt-10 md:w-[60%]   md:right-10 md:top-[64%] lg:top-[60%]' viewBox="0 0 753 483" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+           <svg  className='   z-[9] absolute mt-10 md:w-[60%]   md:right-10 md:top-[64%] lg:top-[60%]' viewBox="0 0 753 483" fill="none" xmlns="http://www.w3.org/2000/svg"> 
         <g clip-path="url(#clip0_0_1)">
           <path d="M690.744 371H684.363L686.244 269.802H688.465L690.744 371Z" fill="#DBDBDB" />
 

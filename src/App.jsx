@@ -27,30 +27,33 @@ const App = () => {
   return (
 
     <>
-         {/* <Element name="nav">
+          <Element name="nav">
          <Nav bookingPopUpOpen={bookingPopUpOpen} setBookingPopUpOpen={setBookingPopUpOpen} />
          <Callendly isOpen={bookingPopUpOpen} setIsOpen={setBookingPopUpOpen} />
-        </Element>  */}
+        </Element> 
+        {/* <Layout>
+         <Hero bookingPopUpOpen={bookingPopUpOpen} setBookingPopUpOpen={setBookingPopUpOpen} />  
+        </Layout>
+
+         <Desc />   */}
         {/* <Layout>  
-       {/* <Hero bookingPopUpOpen={bookingPopUpOpen} setBookingPopUpOpen={setBookingPopUpOpen} />   */}
-       {/* </Layout> */}
-         {/* <Desc />   */}
-         <Layout>  
-         <Features />  
-       <Element name="Our Process"> 
-        <OurProcess />
+         <Features />   
+        <Element name="Our Process"> 
+        <OurProcess /> 
         </Element>
-        <Element name='Get Involved'>
-          <Callout setBookingPopUpOpen={setBookingPopUpOpen} />
-        </Element>
-         <Element name="FAQ">
-          <Faq />
-        </Element>
-        <Element name="Our Team">
-          <OurTeam />    
+      */} 
+         <Layout>
+       <Element name='Get Involved'>
+           <Callout setBookingPopUpOpen={setBookingPopUpOpen} />
+         </Element>
+          <Element name="FAQ">
+           <Faq />
+         </Element>
+          <Element name="Our Team">
+            <OurTeam />    
        </Element>    
-      </Layout> 
-        <Footer /> 
+         </Layout>
+       <Footer />  
     </>
   )
 }
