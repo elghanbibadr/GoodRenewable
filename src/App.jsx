@@ -31,10 +31,10 @@ const App = () => {
          <Nav bookingPopUpOpen={bookingPopUpOpen} setBookingPopUpOpen={setBookingPopUpOpen} />
          <Callendly isOpen={bookingPopUpOpen} setIsOpen={setBookingPopUpOpen} />
         </Element> 
-        {/* <Layout>
-         <Hero bookingPopUpOpen={bookingPopUpOpen} setBookingPopUpOpen={setBookingPopUpOpen} />  
-        </Layout>
-        */} 
+         <Layout>
+      
+      {/* <Hero bookingPopUpOpen={bookingPopUpOpen} setBookingPopUpOpen={setBookingPopUpOpen} />   */}
+      </Layout>
 
          <Desc /> 
          <Layout>
