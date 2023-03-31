@@ -19,7 +19,7 @@ const Callout = (props) => {
 
       <div  className=' w-full md:w-fit mx-auto md:mt-10   md:row-start-3'>
   
-            <BookCallBtn setBookingPopUpOpen={props.setBookingPopUpOpen} fill='white' className='py-5 lg:relative lg:right-10  w-full sm3:w-fit text-center sm:pl-[4.4rem]  lg:py-6  lg:px-16 md:mt-10  book-discoveryCall-btn  mb-20  bg-black hover:bg-[#FAFAFA] hover:text-black text-white' text='Book a Discovery Call' />
+            <BookCallBtn setBookingPopUpOpen={props.setBookingPopUpOpen} fill='white' className='py-5   w-full sm3:w-fit px-16  lg:py-6  flex justify-center lg:px-16 md:mt-10  book-discoveryCall-btn  mb-20  bg-black hover:bg-[#FAFAFA] hover:text-black text-white' text='Book a Discovery Call' />
 
       </div>
       {/* data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" */}
