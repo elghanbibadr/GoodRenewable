@@ -6,6 +6,7 @@ const Layout = (props) => {
         {props.children}
     </div>
   )
+  
 }
 
 export default Layout
