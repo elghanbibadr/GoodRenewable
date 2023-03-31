@@ -8,7 +8,7 @@ const Desc = () => {
 
   return (
     <>
-       <div className='relative   desc ' >
+       <div className='relative    desc ' >
         <img className="absolute top-[15rem] md:top-[13rem]" src={wave3} alt="wave 3 svg " loading="lazy" />
         <img className="relative w-full  top-64" src={wave2} alt="wave 2 svg" loading="lazy" />
       </div>

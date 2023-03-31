@@ -33,7 +33,7 @@ const App = () => {
         </Element> 
          <Layout>
       
-      {/* <Hero bookingPopUpOpen={bookingPopUpOpen} setBookingPopUpOpen={setBookingPopUpOpen} />   */}
+      <Hero bookingPopUpOpen={bookingPopUpOpen} setBookingPopUpOpen={setBookingPopUpOpen} />  
       </Layout>
 
          <Desc /> 
