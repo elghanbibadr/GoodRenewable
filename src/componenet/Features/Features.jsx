@@ -4,8 +4,7 @@ import humanShaking from "../../assets/humansShaking.svg"
 
 const Features = () => {
   return (
-    <>
-
+     <>
        <Gridx2 className=" mt-[-10rem] sm2:mt-20  lg:mt-40   lg:gap-x-[1rem]" >
         <div data-aos="zoom-in"  className='p-2 md:p-6 md:col-start-2 md:row-start-1'>
           <h2 className='mb-8 max-w-[90%] md:max-w-[100%]'>Creating Locally Supported Projects</h2>
