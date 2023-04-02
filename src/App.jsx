@@ -13,7 +13,6 @@ import Layout from './componenet/UI/Layout'
 import Callendly from './componenet/callendy/Callendly'
 import Aos from 'aos'
 import 'aos/dist/aos.css'; // Import the styles
-import CookieBanner from 'react-cookie-banner';
 
 
 
@@ -55,15 +54,7 @@ const App = () => {
        </Element>    
          </Layout>
        <Footer />  
-       <CookieBanner
        
-        message="This website uses cookies to ensure you get the best experience on our website."
-        buttonMessage="Accept"
-  declineButtonText="Decline"
-        cookie="user-has-accepted-cookies"
-        dismissOnScroll={false}
-        dismissOnClick={false}
-      />
     </>
   )
 }
