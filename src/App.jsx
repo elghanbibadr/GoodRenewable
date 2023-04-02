@@ -67,11 +67,9 @@ const App = () => {
         location="bottom"
         containerClasses="cookieBanner"
         buttonText="Accept"
-        // cookieName="myAwesomeCookieName2"
         style={{paddingInline:'14px' ,alignItems:'center',justifyContent:'center'}}
         buttonStyle={{ background:"white", color: "#152223", fontSize: "17px",padding:"8px 30px",borderRadius:"6px" }}
         expires={150}
-        debug={true}
         onAccept={handleAccept}
 
 
