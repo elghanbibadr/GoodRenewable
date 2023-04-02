@@ -17,6 +17,8 @@ html{
 body{
    background-color:  #FAFAFA; 
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
     
 
 }
@@ -208,3 +210,6 @@ button,.linkedinIcon{
 }
 
 
+.cookieBanner{
+    background: #152223 !important;
+}
