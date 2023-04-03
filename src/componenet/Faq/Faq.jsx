@@ -37,12 +37,8 @@ const Faq = (props) => {
           return <div onClick={hanldeQuestionClicked} key={id} id={id} className='bg-white border-[1px] border-[#E8E8E8] cursor-pointer rounded-[16px] relative p-6 md:p-8 my-10' >
             <h5 className='w-[80%] '>{question}</h5>
             <img className={`absolute top-12 right-10 ${activeIndex == id ? "rotate-180" : ""}`} src={arrow} alt='arrow logo' loading='lazy' />
-            <p className={`${activeIndex == id ? "opacity-100 visible my-6" : "opacity-0 invisible h-0"} transition-opacity text-[1.6rem] duration-1000`}> {answer}  {id==6 ? <><a onClick={handleBookCallClicked} className='text-green cursor-pointer underline'> Get in touch with us .</a><span>to find out more about our fee structure.</span></>:""}</p>
-            {/* {id==6 &&
-             <div>
-           <p className={`${activeIndex == id ? "opacity-100 visible my-6" : "opacity-0 invisible h-0"} transition-opacity text-[1.6rem] duration-1000`}> {answer}</p>
-
-              </div>}  */}
+            <p className={`${activeIndex == id ? "opacity-100 visible my-6" : "opacity-0 invisible h-0"} transition-opacity text-[1.6rem] duration-1000`}> {answer}  {id==6 ? <><a onClick={handleBookCallClicked} className='text-green cursor-pointer underline'> Get in touch with us </a><span>to find out more about our fee structure.</span></>:""}</p>
+          
            </div>
 
         })}
