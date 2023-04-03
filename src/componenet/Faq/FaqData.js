@@ -32,7 +32,7 @@ export const  developersFaqData=[
     {
         id:6,
         question:"How does GoodRenewable charge developers? ",
-        answer:"We charge a subscription to access the project we publish as well as a success fee on projects that developers take through to construction. The success fee is linked to project scale. Get in touch with us to find out more about our fee structure. [Get in touch underlined and links to hello@goodrenewable.io email]",
+        answer:"We charge a subscription to access the project we publish as well as a success fee on projects that developers take through to construction. The success fee is linked to project scale."
 
     },
    

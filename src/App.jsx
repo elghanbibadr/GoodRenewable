@@ -55,7 +55,7 @@ const App = () => {
           <Callout setBookingPopUpOpen={setBookingPopUpOpen} />
         </Element>
         <Element name="FAQ">
-          <Faq />
+          <Faq setBookingPopUpOpen={setBookingPopUpOpen} />
         </Element>
         <Element name="Our Team">
           <OurTeam />

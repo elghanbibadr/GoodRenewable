@@ -4,7 +4,8 @@ import { communitiesFaqData } from "./FaqData"
 import { landownersFaqData } from "./FaqData"
 import arrow from "../../assets/smallArow.svg"
 
-const Faq = () => {
+
+const Faq = (props) => {
   const [activeIndex, setActiveIndex] = useState(1);
   const [currentVisibleData, setCurrentVisibleData] = useState(developersFaqData)
 
@@ -18,6 +19,9 @@ const Faq = () => {
     if (!e.target.id) return;
     e.target.id == 1 ? setCurrentVisibleData(communitiesFaqData) : e.target.id == 2 ? setCurrentVisibleData(developersFaqData) : setCurrentVisibleData(landownersFaqData);
   }
+
+  const handleBookCallClicked=()=>props.setBookingPopUpOpen(true)
+
 
   return (
     <div className='lg:w-[60%]  md:w-[70%]   mt-20 mx-auto'>
@@ -33,8 +37,13 @@ const Faq = () => {
           return <div onClick={hanldeQuestionClicked} key={id} id={id} className='bg-white border-[1px] border-[#E8E8E8] cursor-pointer rounded-[16px] relative p-6 md:p-8 my-10' >
             <h5 className='w-[80%] '>{question}</h5>
             <img className={`absolute top-12 right-10 ${activeIndex == id ? "rotate-180" : ""}`} src={arrow} alt='arrow logo' loading='lazy' />
-            <p className={`${activeIndex == id ? "opacity-100 visible my-6" : "opacity-0 invisible h-0"} transition-opacity text-[1.6rem] duration-1000`}> {answer}</p>
-          </div>
+            <p className={`${activeIndex == id ? "opacity-100 visible my-6" : "opacity-0 invisible h-0"} transition-opacity text-[1.6rem] duration-1000`}> {answer}  {id==6 ? <><a onClick={handleBookCallClicked} className='text-green cursor-pointer underline'> Get in touch with us .</a><span>to find out more about our fee structure.</span></>:""}</p>
+            {/* {id==6 &&
+             <div>
+           <p className={`${activeIndex == id ? "opacity-100 visible my-6" : "opacity-0 invisible h-0"} transition-opacity text-[1.6rem] duration-1000`}> {answer}</p>
+
+              </div>}  */}
+           </div>
 
         })}
       </div>
