@@ -52,13 +52,13 @@ export const  communitiesFaqData=[
     {
         id:2,
         question:"How is the wider community consulted?        ",
-        answer:"We understand the initial planning workshops don’t involve the whole community. We run a wider consultation process open to all community members to show their views on the project  proposals put forward by the initial community workshops. The consultation includes informationabout the proposed ownership model and potential benefit schemes that could be part of the   project.",
+        answer:"We understand the initial planning workshops don’t involve the whole community. We run a wider consultation process open to all community members to show their views on the project  proposals put forward by the initial community workshops. The consultation includes information about the proposed ownership model and potential benefit schemes that could be part of the   project.",
 
     },
     {
         id:3,
         question:"What are the potential community benefits? ",
-        answer:"There are a wide range of benefits that renewable energy projects can bring depending on their  structure and ownership model. This can include revenue directly to community owners,revenue-share to locally-administered community benefit funds, or even agreements to fund local services and infrastructure. Communities are free to propose their preferred options to beput forward. The exact benefits will depend on the detail of the final project plans, so weencourage and facilitate communities to have an ongoing dialogue with developers as projects  move forward.",
+        answer:"There are a wide range of benefits that renewable energy projects can bring depending on their  structure and ownership model. This can include revenue directly to community owners,revenue-share to locally-administered community benefit funds, or even agreements to fund local services and infrastructure. Communities are free to propose their preferred options to be put forward. The exact benefits will depend on the detail of the final project plans, so weencourage and facilitate communities to have an ongoing dialogue with developers as projects  move forward.",
 
     },
     {
@@ -89,7 +89,13 @@ export const  landownersFaqData=[
         question:"Do you charge fees to landowners? ",
         answer:"No. GoodRenewable is funded by subscriptions developers pay to see projects on our platform  as well as success fees they pay on projects that are taken through to construction. If a project  goes ahead all lease fees are paid directly from the developer to the landowner without commission.",
 
-    }
+    },
+    {
+        id:4,
+        question:"What are the benefits of working with GoodRenewable?",
+        answer:"Our approach was born out of community consent being a key risk factor in renewable developments. Projects originated through our process have community consent embedded, and so reduce the risk of consenting barriers later down the line. Working with therefore increases the chances of the project being built. This reduced risk is the reason developers subscribe to our network. So engaging with GoodRenewable offers landowners exposure to a wider market of developers than through the otherwise secretive direct development process.",
+
+    },
   
 ]
 
