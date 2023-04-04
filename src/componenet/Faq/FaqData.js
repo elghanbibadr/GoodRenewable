@@ -93,7 +93,7 @@ export const  landownersFaqData=[
     {
         id:4,
         question:"What are the benefits of working with GoodRenewable?",
-        answer:"Our approach was borne out of community consent being a key risk factor in renewable developments. Projects originated through our process have community consent embedded, and so reduce the risk of consenting barriers later down the line. Working with therefore increases the chances of the project being built. This reduced risk is the reason developers subscribe to our network. So engaging with GoodRenewable offers landowners exposure to a wider market of developers than through the otherwise secretive direct development process.",
+        answer:"Our approach was borne out of community consent being a key risk factor in renewable developments. Projects originated through our process have community consent embedded, and so reduce the risk of consenting barriers later down the line. Working with us therefore increases the chances of the project being built. This reduced risk is the reason developers subscribe to our network. So engaging with GoodRenewable offers landowners exposure to a wider market of developers than through the otherwise secretive direct development process.",
 
     },
   
