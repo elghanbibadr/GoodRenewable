@@ -31,6 +31,11 @@ const App = () => {
     document.cookie = "myCookie=true; path=/; max-age=2592000";
 
   };
+  const handleDecline = () => {
+    // Set a cookie value
+    document.cookie = "myCookie=false; path=/; max-age=0";
+
+  };
 
 
   return (
@@ -66,10 +71,13 @@ const App = () => {
       <CookieConsent
         location="bottom"
         containerClasses="cookieBanner"
-        buttonText="Accept"
+         buttonText=" I Accept"
+         enableDeclineButton
+         declineButtonStyle={{ background:"white", color: "#152223", fontSize: "17px",padding:"8px 30px",borderRadius:"6px" }}
         style={{paddingInline:'14px' ,alignItems:'center',justifyContent:'center'}}
         buttonStyle={{ background:"white", color: "#152223", fontSize: "17px",padding:"8px 30px",borderRadius:"6px" }}
         expires={150}
+        onDecline={handleDecline}
         onAccept={handleAccept}
 
 
