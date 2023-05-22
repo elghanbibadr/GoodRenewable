@@ -32,18 +32,15 @@ const App = () => {
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     document.cookie = "myCookie=true; path=/; max-age=2592000";
-    gtag('config', 'G-HXRS96ZR0N');
+    gtag('config', ' G-KX7BJPMF29');
 
 
   };
 
 
   const handleDecline = () => {
-//     // Set a cookie value
-//     document.cookie = "myCookie=false; path=/; max-age=0";
-//       // Disable Google Analytics tracking
-//  window['ga-disable-G-HXRS96ZR0N'] = true;
-window['ga-disable-G-HXRS96ZR0N'] = true;
+
+window['ga-disable- G-KX7BJPMF29'] = true;
 
    };
 
