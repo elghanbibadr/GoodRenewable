@@ -2,7 +2,7 @@ import React from 'react'
 
 
 const BookDiscoveryCall = () => {
-    <a href="https://calendly.com/good-renewable/arrange-a-call?primary_color=5ada2e" target="_blank" >
+    <a href=" https://calendly.com/alexi-good-renewable/30min" target="_blank" >
     <button className={` flex  rounded-[8px] px-6  items-center py-5   w-full text-center sm:pl-[4.4rem] sm2:w-fit lg:py-6  lg:px-16 md:mt-10  book-discoveryCall-btn  mb-20  bg-black text-white hover:bg-[#FAFAFA] hover:text-black text-white' `}>
     <span className='mr-4  font-[300] '>Book a Discovery Call</span>
     <svg   width="20" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">

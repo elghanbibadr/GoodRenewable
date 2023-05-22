@@ -4,7 +4,8 @@ function Callendly(props) {
   return (
     <div>
       <PopupModal
-         url="https://calendly.com/good-renewable/arrange-a-call?" 
+
+         url="https://calendly.com/alexi-good-renewable/30min" 
         pageSettings={props.pageSettings}
        
         onModalClose={() => props.setIsOpen(false)}
